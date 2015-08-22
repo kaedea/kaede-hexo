@@ -4,8 +4,8 @@
 
 # Site
 title: Kaede's Studio
-subtitle: KIRA!!(<ã‚Ï‰Â·)â˜†
-description: å°±ç®—ä½ ç»™é£Žå­å¾ˆå¥½åƒçš„ç³–æžœï¼Œé£Žå­ä¹Ÿä¸ä¼šè·Ÿä½ èµ°çš„~
+subtitle: KIRA!!(<©f¦Ø¡¤)¡î
+description: ¾ÍËãÄã¸ø·ç×ÓºÜºÃ³ÔµÄÌÇ¹û£¬·ç×ÓÒ²²»»á¸úÄã×ßµÄ~
 author: Kaede Akatsuki
 language: en
 timezone:
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: tranquilpeak1.3.0
+theme: themia
 
 #Duoshuo
 duoshuo_shortname: kaeden
