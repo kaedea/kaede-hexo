@@ -120,11 +120,11 @@ a:hover,
 a:active,
 a:visited {
   cursor: pointer;
-  color: #64b5f6;
+  color: #42A5F5;
   text-decoration: none; }
 
 a:hover {
-  color: #64b5f6;
+  color: #1E88E5;
   text-decoration: underline; }
 
 table {
@@ -2157,7 +2157,7 @@ a.tag--small,
   color: #9eabb3 !important; }
 
 .text-color-link {
-  color: #64b5f6 !important; }
+  color: #42A5F5 !important; }
 
 .tooltip, [data-tooltip] {
   position: relative;

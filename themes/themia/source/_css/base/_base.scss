@@ -82,7 +82,7 @@ a {
         text-decoration: none;
     }
     &:hover {
-        color:           map-get($colors, link);
+        color:           map-get($colors, link-hover);
         text-decoration: underline;
     }
 }
