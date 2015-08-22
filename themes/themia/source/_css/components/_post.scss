@@ -9,7 +9,6 @@
             margin:     0;
             word-break: initial;
             overflow:   hidden;
-            font-weight: normal;
 
             &:hover {
                 text-decoration: none;
@@ -61,7 +60,6 @@
         .post-header {
             .post-title {
                 font-size: map-get($headings-font-size, h1) + 0.5rem;
-                font-weight: normal;
             }
         }
     }
@@ -73,7 +71,6 @@
         .post-header {
             .post-title {
                 font-size: map-get($headings-font-size, h1) + 0.9rem;
-                font-weight: normal;
             }
         }
     }

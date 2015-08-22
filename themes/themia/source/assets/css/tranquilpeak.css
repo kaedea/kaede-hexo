@@ -82,6 +82,9 @@ h2,
 h3 {
   margin: 2em 0 1em 0; }
 
+h1 {
+  font-weight: normal; }
+
 h4,
 h5,
 h6 {
@@ -1680,8 +1683,7 @@ a.link-unstyled a.link:active {
   .post .post-header .post-title {
     margin: 0;
     word-break: initial;
-    overflow: hidden;
-    font-weight: normal; }
+    overflow: hidden; }
     .post .post-header .post-title:hover {
       text-decoration: none; }
   .post .post-meta {
@@ -1717,13 +1719,11 @@ a.link-unstyled a.link:active {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .post .post-header .post-title {
-    font-size: 3.3rem;
-    font-weight: normal; } }
+    font-size: 3.3rem; } }
 
 @media only screen and (min-width: 1024px) {
   .post .post-header .post-title {
-    font-size: 3.7rem;
-    font-weight: normal; } }
+    font-size: 3.7rem; } }
 
 .post-actions-wrap {
   height: 60px;
