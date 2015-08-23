@@ -1696,7 +1696,7 @@ a.link-unstyled a.link:active {
   .post .post-content {
     font-family: 'Open Sans', sans-serif;
     color: #5d686f;
-    margin-top: 60px;
+    margin-top: 10px;
     font-weight: 300;
     overflow: hidden;
     word-break: break-word;
