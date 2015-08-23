@@ -1,6 +1,7 @@
 title: 开发神器 — 一些免费流畅的Android模拟器
 date: 2015-08-19 00:30:04
 tags: Android
+thumbnailImage: thumbnail_01.jpg
 ---
 
 ## 开发神器 — 一些免费流畅的Android模拟器
