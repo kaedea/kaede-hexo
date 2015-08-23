@@ -1,5 +1,6 @@
 title: "如何让GridView的每一行都铺满显示，不出现最后出现空位"
 date: 2015-04-08 18:17:14
+categories: Whisper
 tags: java
 ---
 

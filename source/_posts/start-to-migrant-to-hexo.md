@@ -1,5 +1,6 @@
 title: "开始将博客搬迁到HEXO"
 date: 2015-04-09 02:04:58
+categories: Whisper
 tags: 随笔
 ---
 
