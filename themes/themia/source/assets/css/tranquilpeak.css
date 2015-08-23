@@ -72,8 +72,8 @@ h4,
 h5,
 h6 {
   letter-spacing: -0.04em;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-family: 'Open Sans', SimHei, sans-serif;
+  font-weight: normal;
   line-height: 1.45em;
   color: #4a4a4a; }
 
@@ -81,10 +81,6 @@ h1,
 h2,
 h3 {
   margin: 2em 0 1em 0; }
-
-h1,
-h2 {
-  font-weight: normal; }
 
 h4,
 h5,
@@ -1618,11 +1614,11 @@ a.link-unstyled a.link:active {
 
 @media only screen and (min-width: 1024px) {
   .markdown h1 {
-    font-size: 2.15rem; }
+    font-size: 2.8rem; }
   .markdown h2 {
-    font-size: 2rem; }
+    font-size: 2.4rem; }
   .markdown h3 {
-    font-size: 1.8rem; }
+    font-size: 2rem; }
   .markdown h4 {
     font-size: 1.7rem; }
   .markdown h5 {
@@ -1632,11 +1628,11 @@ a.link-unstyled a.link:active {
 
 @media only screen and (max-width: 767px) {
   .markdown h1 {
-    font-size: 1.8rem; }
+    font-size: 2.45rem; }
   .markdown h2 {
-    font-size: 1.65rem; }
+    font-size: 2.05rem; }
   .markdown h3 {
-    font-size: 1.45rem; }
+    font-size: 1.65rem; }
   .markdown h4 {
     font-size: 1.35rem; }
   .markdown h5 {
@@ -1646,11 +1642,11 @@ a.link-unstyled a.link:active {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .markdown h1 {
-    font-size: 1.95rem; }
+    font-size: 2.6rem; }
   .markdown h2 {
-    font-size: 1.8rem; }
+    font-size: 2.2rem; }
   .markdown h3 {
-    font-size: 1.6rem; }
+    font-size: 1.8rem; }
   .markdown h4 {
     font-size: 1.5rem; }
   .markdown h5 {
@@ -1720,13 +1716,16 @@ a.link-unstyled a.link:active {
       margin-bottom: 10px;
       border-bottom: 1px solid #eef2f8; }
 
+#table-of-contents {
+  font-size: 2rem; }
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .post .post-header .post-title {
-    font-size: 3.3rem; } }
+    font-size: 2.8rem; } }
 
 @media only screen and (min-width: 1024px) {
   .post .post-header .post-title {
-    font-size: 3.7rem; } }
+    font-size: 2.8rem; } }
 
 .post-actions-wrap {
   height: 60px;
@@ -1909,7 +1908,7 @@ a.link-unstyled a.link:active {
   display: inline-block;
   vertical-align: top; }
   .postShorten .postShorten-header .postShorten-title {
-    font-family: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-family: 'Open Sans', SimHei, sans-serif;
     margin: 0;
     word-break: initial;
     overflow: hidden; }
@@ -1932,7 +1931,7 @@ a.link-unstyled a.link:active {
     font-weight: 400; }
   .postShorten .postShorten-excerpt,
   .postShorten .postShorten-content {
-    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
     color: #5d686f;
     font-weight: 300;
     overflow: hidden;

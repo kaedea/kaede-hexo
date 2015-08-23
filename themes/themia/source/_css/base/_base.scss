@@ -35,8 +35,8 @@ h4,
 h5,
 h6 {
     letter-spacing: -0.04em;
-    font-family:    'Open Sans', sans-serif;
-    font-weight:    700;
+    font-family:    'Open Sans', SimHei, sans-serif;
+    font-weight:    normal;
     line-height:    1.45em;
     color:          #4a4a4a;
 }
@@ -45,11 +45,6 @@ h1,
 h2,
 h3 {
     margin: 2em 0 1em 0;
-}
-
-h1,
-h2 {
-    font-weight:    normal;
 }
 
 h4,

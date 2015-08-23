@@ -17,7 +17,7 @@
 
     .postShorten-header {
         .postShorten-title {
-            font-family: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
+            font-family: 'Open Sans', SimHei, sans-serif;
             margin:     0;
             word-break: initial;
             overflow:   hidden;
@@ -52,7 +52,7 @@
     }
     .postShorten-excerpt,
     .postShorten-content {
-        font-family: 'Merriweather', serif;
+        font-family: 'Open Sans', sans-serif;
         color:       map-get($colors, base);
         font-weight: 300;
         overflow:    hidden;

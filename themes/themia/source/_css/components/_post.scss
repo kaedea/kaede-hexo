@@ -54,12 +54,17 @@
     }
 }
 
+// style for title of toc
+#table-of-contents {
+    font-size: map-get($headings-font-size, h3);
+}
+
 // Increase the font size of the post's title on medium screen (only for single post view)
 @media #{$medium-only} {
     .post {
         .post-header {
             .post-title {
-                font-size: map-get($headings-font-size, h1) + 0.5rem;
+                font-size: map-get($headings-font-size, h1) + 0.0rem;
             }
         }
     }
@@ -70,7 +75,7 @@
     .post {
         .post-header {
             .post-title {
-                font-size: map-get($headings-font-size, h1) + 0.9rem;
+                font-size: map-get($headings-font-size, h1) + 0.0rem;
             }
         }
     }
