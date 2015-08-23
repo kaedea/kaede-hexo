@@ -35,10 +35,10 @@ sidebar:
             title: global.categories
             url: /all-categories
             icon: bookmark
-        tags:
-            title: global.tags
-            url: /all-tags
-            icon: tags
+        #tags:
+        #    title: global.tags
+        #    url: /all-tags
+        #    icon: tags
         archives:
             title: global.archives
             url: /all-archives
@@ -53,11 +53,12 @@ sidebar:
             title: global.about
             url: /#about
             icon: question
+
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
+         github:
+             title: global.github
+             url: https://github.com/kaedea
+             icon: github
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -78,15 +79,15 @@ sidebar:
         #     title: global.linked_in
         #     url: https://www.linkedin.com/profile/
         #     icon: linkedin
-        # mail:
-        #     title: global.mail
-        #     url: mailto:
-        #     icon: envelope-o
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: rss
+         mail:
+             title: global.mail
+             url: mailto:kidhaibara@gmail.com
+             icon: envelope-o
+    #rss:
+    #    rss:
+    #        title: global.rss
+    #        url: /atom.xml
+    #        icon: rss
 
 
 # Header configuration
@@ -147,6 +148,7 @@ favicon:
 # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
 image_gallery: true
 # Pagination behavior of archive, category and tag pages (false: pagination disabled, true: pagination enabled)
+# 在Archive/Category/Tag页面显示文章风格（false表示显示标题，true表示显示详情）
 archive_pagination: true
 category_pagination: true
 tag_pagination: true
