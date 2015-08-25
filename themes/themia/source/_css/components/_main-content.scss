@@ -5,3 +5,10 @@
     padding-right: map-get($main-content, padding-right-left);
     padding-left:  map-get($main-content, padding-right-left);
 }
+
+@media only screen and (min-width:600px){
+.main-content-wrap { 
+    max-width:     80%;
+    }
+
+}

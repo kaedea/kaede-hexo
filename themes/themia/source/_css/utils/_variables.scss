@@ -173,7 +173,8 @@ $image-gallery-photos-margin: 2px;
 
 // Main content
 $main-content: (
-    'max-width':          80%,
+    'max-width':          750px,
+    'max-width-large':    80%,
     'padding-right-left': 20px,
 );
 
@@ -211,3 +212,4 @@ $tooltip: (
     // Don't change this value, used to vertically center the tooltip content
     'arrow-height': 12px
 );
+
