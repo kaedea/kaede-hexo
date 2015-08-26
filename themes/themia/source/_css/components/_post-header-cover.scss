@@ -76,6 +76,20 @@
     margin: 5px 0 50px 0;
 }
 
+// adjust post's max-width in large screen
+@media #{$large-and-up} {
+.post-header-cover {
+         .post-header {
+              .post-title {
+              max-width:     map-get($main-content, max-width-large);
+              }
+              .post-meta {
+              max-width:     map-get($main-content, max-width-large);
+              }
+          }
+     }
+}
+
 // Decrease the font size of the post's title on very small screen
 @media #{$xsmall-and-down} {
     .post-header-cover {

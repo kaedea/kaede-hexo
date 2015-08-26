@@ -6,9 +6,9 @@
     padding-left:  map-get($main-content, padding-right-left);
 }
 
-@media only screen and (min-width:1024px){
-.main-content-wrap { 
-    max-width:     80%;
+// adjust post's max-width in large screen
+@media #{$large-and-up} {
+ .main-content-wrap { 
+    max-width:     map-get($main-content, max-width-large);
     }
-
 }

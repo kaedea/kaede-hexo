@@ -1834,6 +1834,12 @@ a.link-unstyled a.link:active {
 .post-header-cover-caption {
   margin: 5px 0 50px 0; }
 
+@media only screen and (min-width: 1024px) {
+  .post-header-cover .post-header .post-title {
+    max-width: 80%; }
+  .post-header-cover .post-header .post-meta {
+    max-width: 80%; } }
+
 @media only screen and (max-width: 479px) {
   .post-header-cover .post-header .post-title {
     font-size: 2.8rem; } }
