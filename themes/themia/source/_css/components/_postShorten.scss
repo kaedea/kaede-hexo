@@ -92,6 +92,7 @@
                 width:         $post-thumbnail-image-width;
                 height:        $post-thumbnail-image-width;
                 border-radius: 3px;
+                object-fit: cover;
             }
         }
         .postShorten-wrap {
