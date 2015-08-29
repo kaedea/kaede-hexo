@@ -1698,7 +1698,7 @@ a.link-unstyled a.link:active {
     .post .post-meta a {
       color: #9eabb3; }
   .post .post-content {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', "Noto Sans", "Noto Sans CJK SC", sans-serif;
     color: #5d686f;
     margin-top: 10px;
     font-weight: 300;
