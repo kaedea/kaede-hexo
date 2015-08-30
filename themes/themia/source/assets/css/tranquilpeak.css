@@ -75,7 +75,7 @@ h6 {
   font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", SimHei, sans-serif;
   font-weight: normal;
   line-height: 1.45em;
-  color: #4a4a4a; }
+  color: #212121; }
 
 h1,
 h2,
@@ -158,7 +158,7 @@ code {
 
 acronym,
 abbr {
-  border-bottom: 1px dotted #5d686f; }
+  border-bottom: 1px dotted #424242; }
 
 blockquote {
   border-left: 2px solid #d1dced;
@@ -250,7 +250,7 @@ blockquote {
       font-size: 1.5rem;
       line-height: 1.85em;
       font-weight: 400;
-      color: #5d686f; }
+      color: #424242; }
 
 @media only screen and (max-width: 767px) {
   #about #about-card {
@@ -891,7 +891,7 @@ blockquote {
   display: none; }
 
 .archive .archive-title {
-  color: #5d686f; }
+  color: #424242; }
   .archive .archive-title:hover {
     text-decoration: underline; }
 
@@ -901,7 +901,7 @@ blockquote {
     font-size: 1.4rem; }
     .archive .archive-posts .archive-post .archive-post-title {
       margin-left: 10px;
-      color: #5d686f; }
+      color: #424242; }
       .archive .archive-posts .archive-post .archive-post-title:hover {
         text-decoration: underline; }
     .archive .archive-posts .archive-post .archive-post-date {
@@ -1095,7 +1095,7 @@ a.category--small,
   width: 100%;
   border: none;
   outline: none;
-  color: #5d686f;
+  color: #424242;
   font-weight: 300; }
   .form-control:hover,
   .form-control:focus {
@@ -1694,12 +1694,12 @@ a.link-unstyled a.link:active {
     font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
-    color: #9eabb3; }
+    color: #BDBDBD; }
     .post .post-meta a {
-      color: #9eabb3; }
+      color: #757575; }
   .post .post-content {
     font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", sans-serif;
-    color: #5d686f;
+    color: #424242;
     margin-top: 10px;
     font-weight: 300;
     overflow: hidden;
@@ -1927,10 +1927,10 @@ a.link-unstyled a.link:active {
   .postShorten .postShorten-meta {
     line-height: 1.5em; }
     .postShorten .postShorten-meta a {
-      color: #9eabb3; }
+      color: #757575; }
   .postShorten .postShorten-meta,
   .postShorten .postShorten-readingtime {
-    color: #9eabb3; }
+    color: #BDBDBD; }
   .postShorten .postShorten-excerpt_link {
     margin-top: -15px; }
   .postShorten .postShorten-meta,
@@ -1942,7 +1942,7 @@ a.link-unstyled a.link:active {
   .postShorten .postShorten-excerpt,
   .postShorten .postShorten-content {
     font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", sans-serif;
-    color: #5d686f;
+    color: #424242;
     font-weight: 300;
     overflow: hidden;
     word-break: break-word;
@@ -2161,7 +2161,7 @@ a.tag--small,
   text-decoration: underline !important; }
 
 .text-color-base {
-  color: #5d686f !important; }
+  color: #424242 !important; }
 
 .text-color-light {
   color: #9eabb3 !important; }

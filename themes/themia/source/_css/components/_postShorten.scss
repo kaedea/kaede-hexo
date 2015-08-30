@@ -32,12 +32,12 @@
         line-height: 1.5em;
 
         a {
-            color: map-get($colors, light);
+            color: map-get($colors, grey600);
         }
     }
     .postShorten-meta,
     .postShorten-readingtime {
-        color: map-get($colors, light);
+        color: map-get($colors, grey400);
     }
     .postShorten-excerpt_link {
         // Bring the post's link nearest of the excerpt

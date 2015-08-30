@@ -5,7 +5,7 @@
 $font-family-base:    'Open Sans', sans-serif;
 // equal to 15px
 $font-size-base:      1.5rem;
-$font-color-base:     #5d686f;
+$font-color-base:     #424242;
 $line-height-base:    1.85em;
 $letter-spacing-base: 0.01em;
 
@@ -40,8 +40,10 @@ $colors: (
     'light':   #9eabb3,
      // use for tag `a`
     'link':    #42A5F5,
-    'link-hover':    #1E88E5
-    
+    'link-hover':    #1E88E5,
+    'grey400':    #BDBDBD,
+    'grey600':    #757575,
+    'grey900':    #212121
 );
 
 // Z-indexes

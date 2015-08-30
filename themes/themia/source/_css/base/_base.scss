@@ -38,7 +38,7 @@ h6 {
     font-family:    $font_notosans-sc_simhei;
     font-weight:    normal;
     line-height:    1.45em;
-    color:          #4a4a4a;
+    color:          map-get($colors, grey900);
 }
 
 h1,

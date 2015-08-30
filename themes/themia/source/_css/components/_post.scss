@@ -21,10 +21,10 @@
         font-family: $font_notosans-sc;
         font-size:   map-get($font-size, small);
         font-weight: 400;
-        color:       map-get($colors, light);
+        color:       map-get($colors, grey400);
 
         a {
-            color: map-get($colors, light);
+            color: map-get($colors, grey600);
         }
     }
     .post-content {
