@@ -72,7 +72,7 @@ h4,
 h5,
 h6 {
   letter-spacing: -0.04em;
-  font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", SimHei, sans-serif;
+  font-family: "Open Sans", SimHei, "Noto Sans", "Noto Sans CJK SC", sans-serif;
   font-weight: normal;
   line-height: 1.45em;
   color: #212121; }
@@ -1918,7 +1918,7 @@ a.link-unstyled a.link:active {
   display: inline-block;
   vertical-align: top; }
   .postShorten .postShorten-header .postShorten-title {
-    font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", SimHei, sans-serif;
+    font-family: "Open Sans", SimHei, "Noto Sans", "Noto Sans CJK SC", sans-serif;
     margin: 0;
     word-break: initial;
     overflow: hidden; }

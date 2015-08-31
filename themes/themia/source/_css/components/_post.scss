@@ -18,7 +18,7 @@
     // Post meta contains post's date, post's categories and tags
     .post-meta {
         line-height: 1.5em;
-        font-family: $font_notosans-sc;
+        font-family: $font_content;
         font-size:   map-get($font-size, small);
         font-weight: 400;
         color:       map-get($colors, grey400);
@@ -28,7 +28,7 @@
         }
     }
     .post-content {
-        font-family: $font_notosans-sc;
+        font-family: $font_content;
         color:       map-get($colors, base);
         margin-top:  10px;
         font-weight: 300;

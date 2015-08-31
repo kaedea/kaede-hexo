@@ -15,9 +15,16 @@ $font-size-base-sm-screen-reduction-factor: 0.1rem;
 $font-size-base-md-screen-reduction-factor: 0.05rem;
 
 // Font
+// 'Open Sans', sans-serif;
+// 'Merriweather', serif;
+// 'Open Sans', "Noto Sans", "Noto Sans CJK SC", sans-serif;
+// 'Open Sans', SimHei, "Noto Sans", "Noto Sans CJK SC", sans-serif;
+// adobe-clean-semilight, helvetica, arial, sans-serif;
+// 'Open Sans', "Source Han Sans CN", "思源黑体 CN Normal", sans-serif;
+
 $font_base: $font-family-base;
-$font_notosans-sc: 'Open Sans', "Noto Sans", "Noto Sans CJK SC", sans-serif;
-$font_notosans-sc_simhei: 'Open Sans', "Noto Sans", "Noto Sans CJK SC", SimHei, sans-serif;
+$font_content: 'Open Sans', "Noto Sans", "Noto Sans CJK SC", sans-serif;
+$font_title: 'Open Sans', SimHei, "Noto Sans", "Noto Sans CJK SC", sans-serif;
 
 // Font size : (X.Xrem = XXpx, 1.0rem = 10px)
 $font-size: (
