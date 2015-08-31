@@ -1970,7 +1970,7 @@ a.link-unstyled a.link:active {
       display: block;
       width: 140px;
       height: 140px;
-      border-radius: 3px;
+      border-radius: 5px;
       object-fit: cover; }
   .postShorten.postShorten--thumbnailimg .postShorten-wrap {
     display: inline-block;
