@@ -33,7 +33,11 @@
 
         a {
             color: map-get($colors, grey600);
+             &:hover {
+                  color: map-get($colors, grey400);
+             }
         }
+       
     }
     .postShorten-meta,
     .postShorten-readingtime {

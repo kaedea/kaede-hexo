@@ -1928,6 +1928,8 @@ a.link-unstyled a.link:active {
     line-height: 1.5em; }
     .postShorten .postShorten-meta a {
       color: #757575; }
+      .postShorten .postShorten-meta a:hover {
+        color: #BDBDBD; }
   .postShorten .postShorten-meta,
   .postShorten .postShorten-readingtime {
     color: #BDBDBD; }
