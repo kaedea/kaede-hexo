@@ -72,7 +72,7 @@ h4,
 h5,
 h6 {
   letter-spacing: -0.04em;
-  font-family: "Open Sans", SimHei, "Noto Sans", "Noto Sans CJK SC", sans-serif;
+  font-family: "Open Sans", SimHei, "Noto Sans", "Noto Sans CJK SC", "Microsoft Yahei", sans-serif;
   font-weight: normal;
   line-height: 1.45em;
   color: #212121; }
@@ -1691,14 +1691,14 @@ a.link-unstyled a.link:active {
       text-decoration: none; }
   .post .post-meta {
     line-height: 1.5em;
-    font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", sans-serif;
+    font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", "Microsoft Yahei", sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
     color: #BDBDBD; }
     .post .post-meta a {
       color: #757575; }
   .post .post-content {
-    font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", sans-serif;
+    font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", "Microsoft Yahei", sans-serif;
     color: #424242;
     margin-top: 10px;
     font-weight: 300;
@@ -1918,7 +1918,7 @@ a.link-unstyled a.link:active {
   display: inline-block;
   vertical-align: top; }
   .postShorten .postShorten-header .postShorten-title {
-    font-family: "Open Sans", SimHei, "Noto Sans", "Noto Sans CJK SC", sans-serif;
+    font-family: "Open Sans", SimHei, "Noto Sans", "Noto Sans CJK SC", "Microsoft Yahei", sans-serif;
     margin: 0;
     word-break: initial;
     overflow: hidden; }
@@ -1936,12 +1936,12 @@ a.link-unstyled a.link:active {
   .postShorten .postShorten-meta,
   .postShorten .postShorten-readingtime,
   .postShorten .postShorten-excerpt_link {
-    font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", sans-serif;
+    font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", "Microsoft Yahei", sans-serif;
     font-size: 1.25rem;
     font-weight: 400; }
   .postShorten .postShorten-excerpt,
   .postShorten .postShorten-content {
-    font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", sans-serif;
+    font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", "Microsoft Yahei", sans-serif;
     color: #424242;
     font-weight: 300;
     overflow: hidden;
