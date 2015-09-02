@@ -25,6 +25,9 @@ $font-size-base-md-screen-reduction-factor: 0.05rem;
 $font_base: $font-family-base;
 $font_content: 'Open Sans', "Noto Sans", "Noto Sans CJK SC", 'Microsoft Yahei', sans-serif;
 $font_title:   'Open Sans', SimHei, "Noto Sans", "Noto Sans CJK SC", 'Microsoft Yahei', sans-serif;
+$font_sidebar: $font-family-base;
+$font_code: $font-family-base;
+$font_highlight: Menlo;
 
 // Font size : (X.Xrem = XXpx, 1.0rem = 10px)
 $font-size: (
@@ -152,7 +155,7 @@ $main: (
 
 // Highlight
 $highlight: (
-    'font-family': Menlo,
+    'font-family': $font_highlight,
     'font-size':   1.3rem,
     'border':      1px solid #d9d9d9,
     'line-height': 1.2em

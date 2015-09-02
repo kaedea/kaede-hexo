@@ -148,7 +148,7 @@ dl dd {
 
 code {
   display: inline-block;
-  font-family: 'Open Sans';
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   border-radius: 5px;
   background: #f5f5f5;
@@ -530,7 +530,7 @@ blockquote {
       transform: translate3d(75px, 0, 0); } }
 
 #sidebar {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: 100%;
   position: fixed;
   top: 0;
@@ -979,7 +979,7 @@ blockquote {
 
 .caption {
   display: block;
-  font-family: 'Merriweather', serif;
+  font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", "Microsoft Yahei", sans-serif;
   font-size: 1.25rem;
   color: #81929d;
   text-align: center;
@@ -1556,7 +1556,7 @@ figure.highlight {
     position: absolute;
     bottom: 0;
     width: calc(100% - (1.5em) * 2);
-    font-family: 'Open Sans';
+    font-family: "Open Sans", sans-serif;
     font-style: italic;
     background: rgba(0, 0, 0, 0.75);
     font-size: 1.25rem;
@@ -1818,7 +1818,7 @@ a.link-unstyled a.link:active {
         text-decoration: none; }
     .post-header-cover .post-header .post-meta {
       max-width: 750px;
-      font-family: 'Merriweather', serif;
+      font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", "Microsoft Yahei", sans-serif;
       font-size: 1.5rem;
       color: white !important;
       font-weight: 400;
