@@ -48,12 +48,17 @@ $colors: (
     'base':    $font-color-base,
     'orange':  #e75c2f,
     'light':   #9eabb3,
+
      // use for tag `a`
     'link':    #42A5F5,
     'link-hover':    #BBDEFB,
+
     'grey400':    #BDBDBD,
     'grey600':    #757575,
-    'grey900':    #212121
+    'grey900':    #212121,
+
+     // postShorten separator
+    'separator': #E3F2FD
 );
 
 // Z-indexes

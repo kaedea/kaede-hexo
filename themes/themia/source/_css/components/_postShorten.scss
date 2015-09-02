@@ -4,7 +4,7 @@
     .postShorten {
         // Space between 2 shorten post
         margin-top:    15px;
-        border-bottom: 1px solid #eef2f8;
+        border-bottom: 1px solid map-get($colors, separator);
     }
 }
 
