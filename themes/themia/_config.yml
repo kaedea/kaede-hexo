@@ -144,7 +144,7 @@ go_to_message: Go to the website
 # and use relative url : `/assets/images/your-image.png`
 cover_image: /assets/images/cover.jpg
 # Your favicon located in folder `source/_images/` (development) or in `source/assets/images/` (production)
-favicon:
+favicon: /assets/images/favicon.png
 # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
 image_gallery: true
 # Pagination behavior of archive, category and tag pages (false: pagination disabled, true: pagination enabled)
