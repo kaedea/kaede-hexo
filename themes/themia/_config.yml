@@ -111,7 +111,7 @@ author:
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production).
     # Overwritten by your gravatar image if `gravatar_image` is enabled
-    picture: avatar.png
+    picture: avatar_01.png
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter:
     # Your google plus profile id. E.g : `+Tranquilpeak` or `123812884128439`
@@ -144,7 +144,7 @@ go_to_message: Go to the website
 # and use relative url : `/assets/images/your-image.png`
 cover_image: /assets/images/cover.jpg
 # Your favicon located in folder `source/_images/` (development) or in `source/assets/images/` (production)
-favicon: /assets/images/favicon.png
+favicon: favicon.png
 # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
 image_gallery: true
 # Pagination behavior of archive, category and tag pages (false: pagination disabled, true: pagination enabled)
@@ -160,7 +160,7 @@ disqus_shortname: kidhaibara
 # Your Google analystics web property ID : UA-XXXXX-X
 google_analytics_id:
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-gravatar_email: kidhaibara@gmail.com
+gravatar_email: #kidhaibara@gmail.com
 # Your swiftype install key
 swiftype_install_key: oCoTxxFvwzZyiv48ioJ5
 # Your Facebook user ids used to connect your blog with your facebook user accounts (Facebook Insights). Separate ids with comma. e.g : 9830047,1003342
