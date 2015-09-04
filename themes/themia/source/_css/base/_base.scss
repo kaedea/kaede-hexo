@@ -77,7 +77,7 @@ a {
         text-decoration: none;
     }
     &:hover {
-        color:           map-get($colors, link-hover);
+        color:            darken(map-get($colors, link), 15);
         text-decoration: underline;
     }
 }
