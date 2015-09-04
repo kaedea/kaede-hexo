@@ -160,6 +160,7 @@
         sidebar.run();
     });
     
+    //open external link in sidebar
     $(document).ready(function() {
     $('a').each(function() {
       var a = new RegExp('/' + window.location.host + '/');
@@ -167,5 +168,14 @@
       $(this).attr("target","_blank");
       }
    });
+
+     //img loading animation
+    $(document).ready(function(){  
+         //图片默认隐藏  
+         $('.postShorten-thumbnailimg img').hide();  
+         //使用fadeIn特效  
+         $("img").fadeIn("normal"); 
+    }); 
+
 });
 }(jQuery);
