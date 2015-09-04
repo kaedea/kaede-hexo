@@ -2184,7 +2184,7 @@ a.tag--small,
     z-index: 1000;
     padding: 8px;
     min-width: 180px;
-    background-color: rgba(0, 0, 20, 0.93);
+    background-color: rgba(66, 165, 245, 0.93);
     color: #fff;
     content: attr(data-tooltip);
     font-size: 0.93em;
@@ -2223,7 +2223,7 @@ a.tag--small,
 
 .tooltip--top:before, .tooltip:before, [data-tooltip]:before {
   margin-bottom: -12px;
-  border-top-color: rgba(0, 0, 20, 0.93); }
+  border-top-color: rgba(66, 165, 245, 0.93); }
 
 .tooltip--top:after, .tooltip:after, [data-tooltip]:after {
   margin-left: -91px; }
@@ -2252,7 +2252,7 @@ a.tag--small,
   margin-right: -12px;
   margin-bottom: 0;
   border-top-color: transparent;
-  border-left-color: rgba(0, 0, 20, 0.93); }
+  border-left-color: rgba(66, 165, 245, 0.93); }
 
 .tooltip--left:after {
   margin-left: 0;
@@ -2278,7 +2278,7 @@ a.tag--small,
   margin-top: -12px;
   margin-bottom: 0;
   border-top-color: transparent;
-  border-bottom-color: rgba(0, 0, 20, 0.93); }
+  border-bottom-color: rgba(66, 165, 245, 0.93); }
 
 .tooltip--bottom:before,
 .tooltip--bottom:after {
@@ -2300,7 +2300,7 @@ a.tag--small,
   margin-bottom: 0;
   margin-left: -12px;
   border-top-color: transparent;
-  border-right-color: rgba(0, 0, 20, 0.93); }
+  border-right-color: rgba(66, 165, 245, 0.93); }
 
 .tooltip--right:after {
   margin-left: 0;
