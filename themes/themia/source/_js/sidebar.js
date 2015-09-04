@@ -168,14 +168,5 @@
       $(this).attr("target","_blank");
       }
    });
-
-     //img loading animation
-    $(document).ready(function(){  
-         //图片默认隐藏  
-         $('.postShorten-thumbnailimg img').hide();  
-         //使用fadeIn特效  
-         $("img").fadeIn("normal"); 
-    }); 
-
 });
 }(jQuery);
