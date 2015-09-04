@@ -59,7 +59,11 @@ $colors: (
     'grey900':    #212121,
 
      // postShorten separator
-    'separator': #E3F2FD
+    'separator': #E3F2FD,
+
+     // sidebar awesomefont
+    'sidebar': #ebebeb,
+    'sidebar-hover': #ffffff
 );
 
 // Z-indexes
@@ -146,7 +150,8 @@ $sidebar: (
     'md-screen-width': 75px,
     'lg-screen-width': 250px,
     'background':      rgba(17, 26, 35, 0),
-    'color':           #ebebeb
+    'color':           map-get($colors, sidebar),
+    'color-hover':     map-get($colors, sidebar-hover)
 );
 
 // Main

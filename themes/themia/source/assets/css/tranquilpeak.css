@@ -562,7 +562,7 @@ blockquote {
         #sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link:hover,
         #sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link:active {
           text-decoration: none;
-          color: white; }
+          color: #ffffff; }
     #sidebar ul.sidebar-buttons:first-child {
       margin-top: 5px; }
 

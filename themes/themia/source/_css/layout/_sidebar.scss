@@ -44,7 +44,7 @@
                 &:hover,
                 &:active {
                     text-decoration: none;
-                    color:           lighten(map-get($sidebar, color), 35);
+                    color:           map-get($sidebar, color-hover);
                 }
             }
         }
