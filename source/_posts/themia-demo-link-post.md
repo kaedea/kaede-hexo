@@ -7,5 +7,8 @@ categories:
 tags: 
  - themia 
  - hexo
+ - link post
+
+ 
 ---
 这是一篇Themia主题演示用的日志，此日志是一个`Link Post`，只有缩略部分的文章，没有正文，点击日志会跳转到指定链接。
