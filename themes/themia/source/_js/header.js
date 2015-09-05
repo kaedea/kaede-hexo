@@ -76,7 +76,7 @@
          //图片默认隐藏  
          $('.postShorten-thumbnailimg img').hide();  
          //使用fadeIn特效  
-         $("img").fadeIn("normal"); 
+         $("img").fadeIn("slow"); 
     }); 
-    
+
 }(jQuery);
