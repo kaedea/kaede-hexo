@@ -4,8 +4,9 @@ tags: Android
 thumbnailImage: thumbnail_01.jpg
 ---
 
-## 开发神器 — 一些免费流畅的Android模拟器
-<!-- toc -->
+“工欲善其事，必先利其器。” 使用`Android模拟器`开发和调试应用肯定比使用真机方便。但相比`XCODE`的`IOS模拟器`，Android SDK自带的`AVD`实在不争气，不过一些第三方的模拟器却表现不俗！
+<!-- more -->
+
 10年我开始接触Android开发时候，手头上甚至连一部低端的Android手机都没有，那时候用的是Android SDK自带的AVD模拟器，相信任何Android开发者都对这货深恶痛绝。一直以来，Android开发都有以下的毛病：
  
  - AVD模拟器奇卡无比；
@@ -13,6 +14,7 @@ thumbnailImage: thumbnail_01.jpg
  - Log日志输出不全；
 
 一直以来都想找一款能够顺畅运行APP的Android模拟器，以下就介绍几款比较给力的。
+<!-- toc -->
 
 
 ### 大名鼎鼎的[Genymotion](https://www.genymotion.com/)
