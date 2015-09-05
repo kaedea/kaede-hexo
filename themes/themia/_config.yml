@@ -42,7 +42,7 @@ sidebar:
         archives:
             title: global.archives
             url: /all-archives
-            icon: archive
+            icon: bars
         search:
             title: global.search
             url: /#search
@@ -52,13 +52,13 @@ sidebar:
         about:
             title: global.about
             url: /#about
-            icon: question
+            icon: info-circle
 
     author_links:
          github:
              title: global.github
              url: https://github.com/kaedea
-             icon: github
+             icon: github-square
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
