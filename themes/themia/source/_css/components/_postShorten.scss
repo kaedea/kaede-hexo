@@ -106,4 +106,20 @@
     }
 }
 
+@media #{$medium-only} {
+     .postShorten.postShorten--thumbnailimg {
+        .postShorten-thumbnailimg {      
+            margin:         25px 0 30px 15px;       
+        }
+    }
+}
+
+@media #{$small-only} {
+     .postShorten.postShorten--thumbnailimg {
+        .postShorten-thumbnailimg {      
+            margin:         34px 0 30px 15px;       
+        }
+    }
+}
+
 

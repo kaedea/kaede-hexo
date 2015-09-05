@@ -1978,6 +1978,14 @@ a.link-unstyled a.link:active {
     display: inline-block;
     width: calc(100% - 140px - 20px); } }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .postShorten.postShorten--thumbnailimg .postShorten-thumbnailimg {
+    margin: 25px 0 30px 15px; } }
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .postShorten.postShorten--thumbnailimg .postShorten-thumbnailimg {
+    margin: 34px 0 30px 15px; } }
+
 .share-options-bar {
   position: fixed;
   bottom: -155px;
