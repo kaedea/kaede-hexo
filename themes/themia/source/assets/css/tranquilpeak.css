@@ -1700,7 +1700,7 @@ a.link-unstyled a.link:active {
   .post .post-content {
     font-family: "Open Sans", "Noto Sans", "Noto Sans CJK SC", "Microsoft Yahei", sans-serif;
     color: #424242;
-    margin-top: 10px;
+    margin-top: 50px;
     font-weight: 300;
     overflow: hidden;
     word-break: break-word;
