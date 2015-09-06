@@ -11,9 +11,9 @@ tags:
 
 clearReading: true
 metaAlignment: left
-thumbnailImage: 01.jpg
+thumbnailImage: thumbnail.jpg
 coverImage: 01.jpg
-coverSize: partial
+coverSize: full
 coverCaption: "五年目の放课后"
 coverMeta: in
 photos:
