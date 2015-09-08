@@ -51,7 +51,7 @@ sidebar:
             class: st-search-show-outputs
         about:
             title: global.about
-            url: /#about
+            url: /about
             icon: info-circle
 
     author_links:
