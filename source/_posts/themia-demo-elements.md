@@ -1,7 +1,28 @@
-title: Elements
-date: 2013-12-24 23:29:08
-tags:
+title: Themia Demo - Content Elements
+date: 2015-09-12 03:00:00
+layout: 
+link: 
+categories:
+ - Themia
+tags: 
+ - themia 
+ - hexo
+ - elements
+
+clearReading: false
+metaAlignment: left
+thumbnailImage: 
+coverImage: 
+coverSize: 
+coverCaption: 
+coverMeta: 
+photos:
+
+comments: true
 ---
+
+这篇日志用于展示**Markdown**和**HTML**元素的显示效果。
+<!-- more -->
 
 The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don't forget to redefine the style by yourself.
 
