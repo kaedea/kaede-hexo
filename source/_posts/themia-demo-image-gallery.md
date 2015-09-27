@@ -1,4 +1,4 @@
-title: Themia Sample - Image Gallery
+title: "Themia 演示 - image gallery"
 date: 2015-09-05 22:02:11
 layout: 
 link: 

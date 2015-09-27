@@ -96,9 +96,9 @@ sidebar:
 # DON'T edit `header`, `right_link`, `url`, `icon` and `class` variable name
 header:
     right_link:
-         # url: /#search
-         # icon: search
-         # class: st-search-show-outputs
+         url: /#search
+         icon: search
+         class: st-search-show-outputs
 
 
 # Author

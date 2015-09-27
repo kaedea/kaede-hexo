@@ -1,25 +1,24 @@
-title: "Themia 演示 - 日本語サンプル"
-date: 2015-09-05 20:02:11
-layout: 
-link: 
+title: 日本語テスト
+date: 2013-01-02 23:30:04
 categories:
- - Themia
-tags: 
- - themia 
- - hexo
- - 日本語
+- tranquilpeak
+- features
+tags:
+- japanese
+thumbnailImage: http://res.cloudinary.com/tranquilpeak-hexo-theme/image/upload/w_140,h_140/v1438887930/peak-4.jpg
 
- 
 ---
-私は昨日ついにその助力家というのの上よりするたなけれ。
 
+This is a Japanese test post to show you how japanese is displayed.
+私は昨日ついにその助力家というのの上よりするたなけれ。
+<!-- more -->
 最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。
 がたを知っないはずも同時に九月をいよいよたありた。
 
 もっと槙さんにぼんやり金少し説明にえた自分大した人私か影響にというお関係たうませないが、この次第も私か兄具合に使うて、槙さんののに当人のあなたにさぞご意味と行くて私個人が小尊敬を聴いように同時に同反抗に集っだうて、いよいよまず相当へあっうからいだ事をしでなけれ。
 
->それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。
+> それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。
 
 この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。
 
-From [すぐ使えるダミーテキスト - 日本語 Lorem ipsum](http://lipsum.sugutsukaeru.jp/index.cgi)
+*From [すぐ使えるダミーテキスト - 日本語 Lorem ipsum](http://lipsum.sugutsukaeru.jp/index.cgi)*

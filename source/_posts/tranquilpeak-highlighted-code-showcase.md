@@ -1,65 +1,20 @@
-title: "Themia 演示 - highlighted code"
-date: 2015-09-08 20:02:11
-layout: 
-link: 
+title: "highlighted code showcase"
+date: 2015-03-23 20:30:05
 categories:
- - Themia
+- tranquilpeak
+- features
 tags: 
- - themia 
- - hexo
- - code
- - highlight
-
-clearReading: false
-metaAlignment: left
-thumbnailImage: 
-coverImage: 
-coverSize: 
-coverCaption: 
-coverMeta: 
-photos:
-
-comments: true
+- highlight code
+- github theme
+thumbnailImage: http://res.cloudinary.com/tranquilpeak-hexo-theme/image/upload/w_140,h_140/v1438887909/peak-5.jpg
 
 ---
-展示在日志中插入代码块，支持高亮显示，并且有几种显示代码块的模式，能显示本地或者远程托管的代码。
-支持多语言代码检测以及高亮。
-<!-- more -->
-<!-- toc -->
-## 基础使用
-### Normal code block
 
-```
-alert('Hello World!');
-```
+Tranquilpeak Hexo theme have its own theme to highlight source code. It's based on GitHub theme: simple and elegant. Check out how it sublimate source codes.
+<!--more-->
 
-### With caption
-
-{% codeblock Array.map %}
-array.map(callback[, thisArg])
-{% endcodeblock %}
-
-### With caption and URL
-
-{% codeblock .compact http://underscorejs.org/#compact Underscore.js %}
-.compact([0, 1, false, 2, ‘’, 3]);
-=> [1, 2, 3]
-{% endcodeblock %}
-
-### Gist
-
-{% gist 996818 %}
-
-### jsFiddle
-
-{% jsfiddle ccWP7 %}
-
-
-
-## 多语言高亮支持
-
-### APACHECONF
-{% codeblock apache.conf https://github.com/kaedea GitHub %}
+APACHECONF
+{% codeblock apache.conf lang:apacheConf http://underscorejs.org/#compact apache.conf %}
 # rewrite`s rules for wordpress pretty url
 LoadModule rewrite_module  modules/mod_rewrite.so
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -81,9 +36,9 @@ Allow from All
 </Location>
 {% endcodeblock %}
 
+BASH
+{% codeblock test.bash lang:bash http://underscorejs.org/#compact test.bash %}
 
-### BASH
-{% codeblock sample.bash https://github.com/kaedea GitHub %}
 #!/bin/bash
 
 ###### BEGIN CONFIG
@@ -116,65 +71,63 @@ genApacheConf(){
 }
 {% endcodeblock %}
 
+Coffeescript
+{% codeblock archives.coffee lang:coffeescript http://underscorejs.org/#compact archives.coffee %}
+ ###
+ Some tests
+ ###
+ class Animal
+   constructor: (@name) ->
+   move: (meters) -> alert @name + " moved " + meters + "m."
 
-### Coffeescript
-{% codeblock sample.coffee https://github.com/kaedea GitHub %}
-###
-Some tests
-###
-class Animal
-  constructor: (@name) ->
-  move: (meters) -> alert @name + " moved " + meters + "m."
+ class Snake extends Animal
+   move: ->
+     alert 'Slithering...'
+     super 5
 
-class Snake extends Animal
-  move: ->
-    alert 'Slithering...'
-    super 5
-
-number   = 42; opposite = true
+ number   = 42; opposite = true
 
 
-square = (x) -> x * x
+ square = (x) -> x * x
 
-range = [1..2]
-list = [1...5]
+ range = [1..2]
+ list = [1...5]
 
-math =
-  root:   Math.sqrt
-  cube:   (x) => x * square x
+ math =
+   root:   Math.sqrt
+   cube:   (x) => x * square x
 
-race = (winner, runners...) ->
-  print winner, runners
+ race = (winner, runners...) ->
+   print winner, runners
 
-alert "I knew it!" if elvis?
+ alert "I knew it!" if elvis?
 
-cubes = math.cube num for num in list
+ cubes = math.cube num for num in list
 
-text = """
- Result
-    is #{ @number }"""
+ text = """
+  Result
+     is #{ @number }"""
 
-html = '''   <body></body>'''
+ html = '''   <body></body>'''
 
-String::dasherize = ->
-  this.replace /_/g, "-"
-SINGERS = {Jagger: "Rock", Elvis: "Roll"}
+ String::dasherize = ->
+   this.replace /_/g, "-"
+ SINGERS = {Jagger: "Rock", Elvis: "Roll"}
 
-t = ///
-#{ something }[a-z]
-///
+ t = ///
+ #{ something }[a-z]
+ ///
 
-$('.shopping_cart').bind 'click', (event) =>
-    @customer.purchase @cart
+ $('.shopping_cart').bind 'click', (event) =>
+     @customer.purchase @cart
 
-hi = `function() {
-  return [document.title, "Hello JavaScript"].join(": ");
-}`
+ hi = `function() {
+   return [document.title, "Hello JavaScript"].join(": ");
+ }`
 {% endcodeblock %}
 
-
-### C++
-{% codeblock sample.cpp https://github.com/kaedea GitHub %}
+C++
+{% codeblock archives.cpp lang:cpp http://underscorejs.org/#compact archives.cpp %}
 /*
  * Block comment
  */
@@ -213,9 +166,8 @@ namespace foo {
 }
 {% endcodeblock %}
 
-
-### C#
-{% codeblock sample.cs https://github.com/kaedea GitHub %}
+CShparp
+{% codeblock archives.cs lang:cs http://underscorejs.org/#compact archives.cs %}
 using System;
 
 #pragma warning disable 414, 3021
@@ -243,9 +195,8 @@ async Task<int> AccessTheWebAsync()
 }
 {% endcodeblock %}
 
-
-### CSS
-{% codeblock sample.css https://github.com/kaedea GitHub %}
+CSS
+{% codeblock archives.css lang:css http://underscorejs.org/#compact archives.css %}
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   body:first-of-type pre::after {
     content: 'highlight: ' attr(class);
@@ -273,9 +224,8 @@ li[lang=ru] {
 }
 {% endcodeblock %}
 
-
-### DIFF
-{% codeblock sample.diff https://github.com/kaedea GitHub %}
+DIFF
+{% codeblock archives.diff lang:diff http://underscorejs.org/#compact archives.diff %}
 Index: languages/ini.js
 ===================================================================
 --- languages/ini.js    (revision 199)
@@ -308,50 +258,8 @@ Index: languages/ini.js
   It is important to spell
 {% endcodeblock %}
 
-
-
-### GO
-{% codeblock sample.go https://github.com/kaedea GitHub %}
-package main
-
-import (
-    "fmt"
-    "os"
-)
-
-const (
-    Sunday = iota
-    numberOfDays  // this constant is not exported
-)
-
-type Foo interface {
-    FooFunc(int, float32) (complex128, []int)
-}
-
-type Bar struct {
-    os.File /* multi-line
-               comment */
-    PublicData chan int
-}
-
-func main() {
-    ch := make(chan int)
-    ch <- 1
-    x, ok := <- ch
-    ok = true
-    float_var := 1.0e10
-    defer fmt.Println('\'')
-    defer fmt.Println(`exitting now\`)
-    var fv1 float64 = 0.75
-    go println(len("hello world!"))
-    return
-}
-{% endcodeblock %}
-
-
-
-### HTTP
-{% codeblock sample.http https://github.com/kaedea GitHub %}
+HTTP
+{% codeblock archives.http lang:http http://underscorejs.org/#compact archives.http %}
 POST /task?id=1 HTTP/1.1
 Host: example.org
 Content-Type: application/json; charset=utf-8
@@ -360,8 +268,8 @@ Content-Length: 19
 {"status": "ok", "extended": true}
 {% endcodeblock %}
 
-### INI
-{% codeblock sample.ini https://github.com/kaedea GitHub %}
+INI
+{% codeblock archives.ini lang:ini http://underscorejs.org/#compact archives.ini %}
 ;Settings relating to the location and loading of the database
 [Database]
 ProfileDir=.
@@ -376,8 +284,8 @@ Glob=autoexec_*.ini
 AskAboutIgnoredPlugins=0
 {% endcodeblock %}
 
-### Java
-{% codeblock sample.java https://github.com/kaedea GitHub %}
+JAVA
+{% codeblock archives.java lang:java http://underscorejs.org/#compact archives.java %}
 /* Block comment */
 import java.util.Date;
 /**
@@ -415,8 +323,8 @@ abstract class SomeAbstractClass {
 }
 {% endcodeblock %}
 
-### JavaScript
-{% codeblock sample.js https://github.com/kaedea GitHub %}
+JavaScript
+{% codeblock archives.js lang:js http://underscorejs.org/#compact archives.js %}
 function $initHighlight(block, flags) {
   try {
     if (block.className.search(/\bno\-highlight\b/) != -1)
@@ -435,8 +343,8 @@ function $initHighlight(block, flags) {
 }
 {% endcodeblock %}
 
-### Json
-{% codeblock sample.json https://github.com/kaedea GitHub %}
+JSON
+{% codeblock archives.json lang:json http://underscorejs.org/#compact archives.json %}
 [
   {
     "title": "apples",
@@ -451,8 +359,9 @@ function $initHighlight(block, flags) {
 ]
 {% endcodeblock %}
 
-### MakeFile
-{% codeblock sample.mak https://github.com/kaedea GitHub %}
+Makefile
+
+{% codeblock archives.mak lang:mak http://underscorejs.org/#compact archives.mak %}
 # Makefile
 
 BUILDDIR      = _build
@@ -468,8 +377,9 @@ clean:
 	rm -rf $(BUILDDIR)/*
 {% endcodeblock %}
 
-### MarkDown
-{% codeblock sample.md https://github.com/kaedea GitHub %}
+Markdown
+
+{% codeblock archives.md lang:md http://underscorejs.org/#compact archives.md %}
 # hello world
 
 you can write text [with links](http://example.com) inline or [link references][1].
@@ -494,8 +404,9 @@ hello world
 2. two thing `i can write code`, and `more` wipee!
 {% endcodeblock %}
 
-### Nginx
-{% codeblock sample..conf https://github.com/kaedea GitHub %}
+Nginx
+
+{% codeblock archives.conf lang:nginx http://underscorejs.org/#compact archives.conf %}
 user  www www;
 worker_processes  2;
 pid /var/run/nginx.pid;
@@ -544,8 +455,9 @@ http {
     }
 {% endcodeblock %}
 
-### Object-C
-{% codeblock sample.m https://github.com/kaedea GitHub %}
+Objective-C
+
+{% codeblock archives.m lang:objectivec http://underscorejs.org/#compact archives.m %}
 #import <UIKit/UIKit.h>
 #import "Dependency.h"
 
@@ -591,9 +503,9 @@ http {
 @end
 {% endcodeblock %}
 
+Perl
 
-### Perl
-{% codeblock sample.perl https://github.com/kaedea GitHub %}
+{% codeblock archives.perl lang:perl http://underscorejs.org/#compact archives.perl %}
 # loads object
 sub load
 {
@@ -628,10 +540,9 @@ sub load
 POD till the end of file
 {% endcodeblock %}
 
+PHP
 
-
-### PHP
-{% codeblock sample.php https://github.com/kaedea GitHub %}
+{% codeblock archives.php lang:php http://underscorejs.org/#compact archives.php %}
 <?php
 $heredoc = <<< HEREDOC_ID
 some $contents
@@ -672,10 +583,9 @@ Label:
 <php_bad>№</php_bad>
 {% endcodeblock %}
 
+Python
 
-
-### Python
-{% codeblock sample.py https://github.com/kaedea GitHub %}
+{% codeblock archives.py lang:python http://underscorejs.org/#compact archives.py %}
 @requires_authorization
 def somefunc(param1='', param2=0):
     r'''A docstring'''
@@ -690,10 +600,9 @@ class SomeClass:
 ... prompt'''
 {% endcodeblock %}
 
+Ruby
 
-
-### Ruby
-{% codeblock sample.rb https://github.com/kaedea GitHub %}
+{% codeblock archives.rb lang:ruby http://underscorejs.org/#compact archives.rb %}
 class A < B; def self.create(object = User) object end end
 class Zebra; def inspect; "X#{2 + self.object_id}" end end
 
@@ -724,10 +633,9 @@ hash = {1 => 'one', 2 => 'two'}
  => ["some"]
 {% endcodeblock %}
 
+SQL
 
-
-### SQL
-{% codeblock sample.sql https://github.com/kaedea GitHub %}
+{% codeblock archives.sql lang:sql http://underscorejs.org/#compact archives.sql %}
 BEGIN;
 CREATE TABLE "topic" (
     -- This is the greatest table of all time
@@ -749,10 +657,9 @@ but who cares?
 COMMIT
 {% endcodeblock %}
 
+HTML
 
-
-### HTML
-{% codeblock sample.html https://github.com/kaedea GitHub %}
+{% codeblock archives.html lang:xml http://underscorejs.org/#compact archives.html %}
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
 <!--
 *        Sample comment
@@ -769,10 +676,9 @@ What is WebStorm? &#x00B7; &Alpha; </b><br><br>
 </html>
 {% endcodeblock %}
 
+Puppet
 
-
-### Puppet
-{% codeblock sample.pp https://github.com/kaedea GitHub %}
+{% codeblock archives.pp lang:puppet http://underscorejs.org/#compact archives.pp %}
 class hg_punch::library {
 
   firewall {'101 puppet library access':
@@ -878,10 +784,9 @@ class hg_punch::library {
 }
 {% endcodeblock %}
 
+LESS
 
-
-### LESS
-{% codeblock sample.less https://github.com/kaedea GitHub %}
+{% codeblock archives.less lang:less http://underscorejs.org/#compact archives.less %}
 @import 'mixins'; // external mixins
 
 @the-border: 1px;
@@ -908,10 +813,9 @@ div > p, p ~ ul, input[type="radio"] {
 }
 {% endcodeblock %}
 
+SCSS
 
-
-### SCSS
-{% codeblock sample.scss https://github.com/kaedea GitHub %}
+{% codeblock archives.scss lang:scss http://underscorejs.org/#compact archives.scss %}
 .btn {
     font-size:      $font-size-base;
     background:     #fff;
@@ -962,10 +866,9 @@ div > p, p ~ ul, input[type="radio"] {
 }
 {% endcodeblock %}
 
+Stylus
 
-
-### Stylus
-{% codeblock sample.styl https://github.com/kaedea GitHub %}
+{% codeblock archives.styl lang:stylus http://underscorejs.org/#compact archives.styl %}
 @import "nib"
 
 // variables
@@ -993,10 +896,48 @@ button
   width 100%
 {% endcodeblock %}
 
+Go
 
+{% codeblock archives.go lang:go http://underscorejs.org/#compact archives.go %}
+package main
 
-### Swift
-{% codeblock sample.swift https://github.com/kaedea GitHub %}
+import (
+    "fmt"
+    "os"
+)
+
+const (
+    Sunday = iota
+    numberOfDays  // this constant is not exported
+)
+
+type Foo interface {
+    FooFunc(int, float32) (complex128, []int)
+}
+
+type Bar struct {
+    os.File /* multi-line
+               comment */
+    PublicData chan int
+}
+
+func main() {
+    ch := make(chan int)
+    ch <- 1
+    x, ok := <- ch
+    ok = true
+    float_var := 1.0e10
+    defer fmt.Println('\'')
+    defer fmt.Println(`exitting now\`)
+    var fv1 float64 = 0.75
+    go println(len("hello world!"))
+    return
+}
+{% endcodeblock %}
+
+Swift
+
+{% codeblock archives.swift lang:swift http://underscorejs.org/#compact archives.swift %}
 extension MyClass : Interface {
     class func unarchiveFromFile<A>(file : A, (Int,Int) -> B) -> SKNode? {
         let path: String = bundle.pathForResource(file, ofType: "file\(name + 5).txt")
@@ -1009,9 +950,4 @@ extension MyClass : Interface {
     }
 }
 {% endcodeblock %}
-
-
-
-
-
 

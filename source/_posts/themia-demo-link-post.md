@@ -1,6 +1,5 @@
-title: Themia Sample - 链接型日志
+title: "Themia 演示 - link post"
 date: 2015-09-05 19:27:04
-layout: link
 link: http://moe.kaedea.com
 categories:
  - Themia

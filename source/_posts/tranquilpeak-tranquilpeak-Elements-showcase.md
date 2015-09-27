@@ -1,29 +1,17 @@
-title: "Themia 演示 - archive elements"
-date: 2015-09-12 03:00:00
-layout: 
-link: 
+title: "Elements showcase"
+date: 2015-05-28 20:30:05
 categories:
- - Themia
-tags: 
- - themia 
- - hexo
- - elements
+- tranquilpeak
+- features
+tags:
+- html elements
+- markdown
+thumbnailImage: http://res.cloudinary.com/tranquilpeak-hexo-theme/image/upload/w_140,h_140/v1438893993/vintage-2.jpg
 
-clearReading: false
-metaAlignment: left
-thumbnailImage: 
-coverImage: 
-coverSize: 
-coverCaption: 
-coverMeta: 
-photos:
-
-comments: true
 ---
 
-这篇日志用于展示**Markdown**和**HTML**元素的显示效果。
-The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don't forget to redefine the style by yourself.
-<!-- more -->
+Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It's simple and elegant.
+<!--more-->
 
 ---
 
@@ -49,6 +37,9 @@ Interdum et malesuada fames ac ante ipsum primis in faucibus. `Sed erat diam`, b
 
 > Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.
 
+<div class="pullquote right">
+Praesent diam elit, interdum ut pulvinar placerat, imperdiet at magna.
+</div>
 Maecenas ornare arcu at mi suscipit, non molestie tortor ultrices. Aenean convallis, diam et congue ultricies, erat magna tincidunt orci, pulvinar posuere mi sapien ac magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vitae placerat mauris. Nullam laoreet ante posuere tortor blandit auctor. Sed id ligula volutpat leo consequat placerat. Mauris fermentum dolor sed augue malesuada sollicitudin. Vivamus ultrices nunc felis, quis viverra orci eleifend ut. Donec et quam id urna cursus posuere. Donec elementum scelerisque laoreet.
 
 ## List Types
@@ -79,4 +70,6 @@ Maecenas ornare arcu at mi suscipit, non molestie tortor ultrices. Aenean conval
 
 ## Misc Stuff - abbr, acronym, sub, sup, etc.
 
-Lorem <sup>superscript</sup> dolor <sub>subscript</sub> amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. <cite>cite</cite>. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. <acronym title="National Basketball Association">NBA</acronym> Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  <abbr title="Avenue">AVE</abbr>
+Lorem <sup>superscript</sup> dolor <sub>subscript</sub> amet, consectetuer adipiscing <kdb>ctrl + c</kdb>. Nullam dignissim convallis est. Quisque aliquam. <cite>cite</cite>. Nunc iaculis suscipit dui.
+ Nam
+sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. <acronym title="National Basketball Association">NBA</acronym> Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  <abbr title="Avenue">AVE</abbr>
