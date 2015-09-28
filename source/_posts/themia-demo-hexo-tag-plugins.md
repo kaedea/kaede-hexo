@@ -11,7 +11,7 @@ coverImage: post-cover.jpg
 clearReading: true
 
 ---
-`Tag plugins`并不是志的标签`tag`，它们大都是来自`Octopress`的插件，能够方便得在日志里插入一些特殊的内容。
+`Tag plugins`并不是日志的标签`tag`，它们大都是来自`Octopress`的插件，能够方便得在日志里插入一些特殊的内容。
 This post is used to show how tag plugins are displayed. See [docs](http://zespia.tw/hexo/docs/tag-plugins.html) for more info.
 <!--more-->
 
