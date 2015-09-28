@@ -1,4 +1,4 @@
-title: "Themia 演示 - image gallery"
+title: "Themia 演示 - image gallery post"
 date: 2015-09-05 22:02:11
 layout: 
 link: 
@@ -7,7 +7,7 @@ categories:
 tags: 
  - themia 
  - hexo
- - gallery
+ - gallery post
 
 clearReading: true
 metaAlignment: left
@@ -31,4 +31,6 @@ photos:
 comments: true
 
 ---
-这是一篇Themia主题演示用的日志，用于展示图片相册。
+`Gallery Post`是专门用于展示相册的日志，可以用`Gallery`的方式来展示一组图片。相比普通的日志，`Gallery Post`的主要内容是图片而不是文字。
+<!-- more -->
+展示的相册是`Kantoku`的`五年目の放课后`系列的最新画册《Colorful》。
