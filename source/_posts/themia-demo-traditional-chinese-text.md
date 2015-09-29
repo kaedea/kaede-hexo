@@ -1,9 +1,14 @@
-title: 中文測試
-date: 2013-12-24 23:31:30
+title: "Themia 演示 - 繁体中文日志"
+date: 2015-09-05 18:02:11
+categories:
+- Themia
 tags:
----
+- 繁体中文
+- hexo
+- thmia
+thumbnailImage: 
 
-This is a Chinese test post.
+---
 
 善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。
 

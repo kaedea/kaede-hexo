@@ -1,17 +1,26 @@
-title: "Cover image showcase"
-thumbnailImage: http://res.cloudinary.com/tranquilpeak-hexo-theme/image/upload/w_140,h_140/v1438976992/city-2.jpg
-coverImage: http://res.cloudinary.com/tranquilpeak-hexo-theme/image/upload/v1438976992/city-2.jpg
-metaAlignment: center
-coverMeta: out
-date: 2015-05-13 20:30:05
-categories:
-- tranquilpeak
-- features
-tags:
-- cover image
+title: "Themia 演示 - cover image post"
+date: 2015-09-29 20:02:11
+layout: 
+link: 
 
+categories:
+ - Themia
+tags: 
+ - themia 
+ - hexo
+ - cover image
+
+clearReading: true
+metaAlignment: center
+thumbnailImage: post-thumb.jpg
+coverImage: post-cover.jpg
+coverSize: 
+coverCaption: 
+coverMeta: out
+photos:
+comments: true
 ---
- 
+`Cover Image`不是`Hexo`或其插件提供的功能，而是Themia主题（源于Tranquilpeak）的特有功能，使用一张大图作为日志的起始封面，并且能够在封面上显示标题。
 Tranquilpeak integrate a unique "cover image" feature. Open this post to see how this feature sublimate your article.
 <!-- more -->
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget urna vitae velit eleifend interdum at ac nisi. In nec ligula lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eu cursus erat, ut dapibus quam. Aliquam eleifend dolor vitae libero pharetra adipiscing. Etiam adipiscing dolor a quam tempor, eu convallis nulla varius. Aliquam sollicitudin risus a porta aliquam. Ut nec velit dolor. Proin eget leo lobortis, aliquam est sed, mollis mauris. Fusce vitae leo pretium massa accumsan condimentum. Fusce malesuada gravida lectus vel vulputate. Donec bibendum porta nibh ut aliquam.
