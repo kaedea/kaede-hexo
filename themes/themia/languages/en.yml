@@ -26,8 +26,8 @@ global:
 pagination:
     page: "page"
     of: "of"
-    newer_posts: "NEWER POSTS"
-    older_posts: "OLDER POSTS"
+    newer_posts: "Previous"
+    older_posts: "Next"
     previous: "PREVIOUS"
     next: "NEXT"
 
