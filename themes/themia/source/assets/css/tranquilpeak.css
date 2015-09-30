@@ -1055,7 +1055,7 @@ a.category--small,
 .figure.center .fig-img {
   margin: 2px auto; }
 
-.figure.left, .figure.fig-20, .figure.fig-25, .figure.fig-33, .figure.fig-50, .figure.fig-75 {
+.figure.left, .figure.fig-20, .figure.fig-25, .figure.fig-33, .figure.fig-50, .figure.fig-75, .figure.fig-100, .figure.center {
   float: left;
   margin: 2px; }
 
@@ -1090,6 +1090,22 @@ a.category--small,
 @media only screen and (max-width: 767px) {
   .fig-33 .caption, .fig-25 .caption, .fig-20 .caption {
     display: none; } }
+
+@media only screen and (min-width: 1024px) {
+  .figure.right {
+    float: left; }
+  .figure.fig-20 {
+    max-width: 16%; }
+  .figure.fig-25 {
+    max-width: 20%; }
+  .figure.fig-33 {
+    max-width: 26.4%; }
+  .figure.fig-50 {
+    max-width: 40%; }
+  .figure.fig-75 {
+    max-width: 60%; }
+  .figure.fig-100, .figure.center {
+    max-width: 80%; } }
 
 .form-control {
   background: transparent;
@@ -1776,7 +1792,7 @@ a.link-unstyled a.link:active {
 .pullquote {
   width: 45%;
   text-align: left; }
-  .pullquote.left, .pullquote.figure.fig-20, .pullquote.figure.fig-25, .pullquote.figure.fig-33, .pullquote.figure.fig-50, .pullquote.figure.fig-75 {
+  .pullquote.left, .pullquote.figure.fig-20, .pullquote.figure.fig-25, .pullquote.figure.fig-33, .pullquote.figure.fig-50, .pullquote.figure.fig-75, .pullquote.figure.fig-100, .pullquote.figure.center {
     float: left;
     margin: 10px 10px 10px 20px; }
   .pullquote.right {

@@ -38,6 +38,7 @@
         width: calc(75% - 4px);
     }
     &.fig-100 {
+        @extend .left;
         width: calc(100% - 4px);
     }
     &.figure--fullWidth {
@@ -56,4 +57,33 @@
             display: none;
         }
     }
+}
+
+
+@media #{$large-and-up} {
+.figure {
+   
+    &.right {
+        float:  left; //not support yet
+    }
+    &.fig-20 {
+        max-width: map-get($main-content, max-width-large) * 20/100;
+    }
+    &.fig-25 {
+        max-width: map-get($main-content, max-width-large) * 25/100;
+    }
+    &.fig-33 {
+        max-width: map-get($main-content, max-width-large) * 33/100;
+    }
+    &.fig-50 {
+       max-width: map-get($main-content, max-width-large) * 50/100;
+    }
+    &.fig-75 {
+        max-width: map-get($main-content, max-width-large) * 75/100;
+    }
+    &.fig-100 {
+        max-width: map-get($main-content, max-width-large);
+    }
+    
+}
 }
