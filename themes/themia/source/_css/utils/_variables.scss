@@ -142,7 +142,7 @@ $header:(
     'height':     55px,
     'background': #fff,
     'color':      #88909a,
-    'border':     1px solid #eef2f8
+    'border':     1px solid map-get($colors, separator)
 );
 
 // Sidebar
