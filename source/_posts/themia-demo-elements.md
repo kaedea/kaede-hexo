@@ -11,7 +11,7 @@ tags:
 
 clearReading: false
 metaAlignment: left
-thumbnailImage: 
+thumbnailImage: ../../../../asset/image/post-thumb-00.jpg
 coverImage: 
 coverSize: 
 coverCaption: 

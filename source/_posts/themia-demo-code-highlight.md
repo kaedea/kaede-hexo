@@ -12,7 +12,7 @@ tags:
 
 clearReading: false
 metaAlignment: left
-thumbnailImage: 
+thumbnailImage: ../../../../asset/image/post-thumb-00.gif
 coverImage: 
 coverSize: 
 coverCaption: 
