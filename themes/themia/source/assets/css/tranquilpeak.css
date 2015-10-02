@@ -1091,22 +1091,6 @@ a.category--small,
   .fig-33 .caption, .fig-25 .caption, .fig-20 .caption {
     display: none; } }
 
-@media only screen and (min-width: 1024px) {
-  .figure.right {
-    float: left; }
-  .figure.fig-20 {
-    max-width: 16%; }
-  .figure.fig-25 {
-    max-width: 20%; }
-  .figure.fig-33 {
-    max-width: 26.4%; }
-  .figure.fig-50 {
-    max-width: 40%; }
-  .figure.fig-75 {
-    max-width: 60%; }
-  .figure.fig-100, .figure.center {
-    max-width: 80%; } }
-
 .form-control {
   background: transparent;
   width: 100%;
