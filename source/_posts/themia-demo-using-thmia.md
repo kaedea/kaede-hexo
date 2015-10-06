@@ -7,7 +7,7 @@ categories:
 tags: 
  - themia 
  - hexo
- - elements
+ - release
 
 clearReading: false
 metaAlignment: left

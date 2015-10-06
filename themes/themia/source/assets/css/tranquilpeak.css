@@ -1713,7 +1713,8 @@ a.link-unstyled a.link:active {
       display: block;
       width: auto;
       max-width: 100%;
-      border-radius: 3px; }
+      border-radius: 3px;
+      border: 1px solid #E0E0E0; }
   .post .post-footer {
     margin-top: 20px; }
     .post .post-footer-tags {
