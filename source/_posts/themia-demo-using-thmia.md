@@ -20,7 +20,7 @@ photos:
 
 comments: true
 ---
-**Themia**是一个华丽的Hexo响应式主题，由**LouisBarranqueiro**开发的主题[TranquiPeak](https://github.com/LouisBarranqueiro/tranquilpeak-hexo-theme)的基础上改造而来，**大部分功能都是原有主题的**，只是为了我自己的需求做了小部分的修改。
+[Themia](https://github.com/kaedea/hexo-theme-themia)是一个华丽的Hexo响应式主题，由**LouisBarranqueiro**开发的主题[TranquiPeak](https://github.com/LouisBarranqueiro/tranquilpeak-hexo-theme)的基础上改造而来，**大部分功能都是原有主题的**，只是为了我自己的需求做了小部分的修改。
 <!--more-->
 
 下面是**LouisBarranqueiro**本人对于该主题的介绍：
@@ -31,6 +31,7 @@ comments: true
 ### 基本信息
  - 作者：[Kaedea](https://github.com/kaedea) （基于[TranquiPeak](https://github.com/LouisBarranqueiro/tranquilpeak-hexo-theme)）
  - 环境：[Hexo](https://hexo.io/zh-cn/) 3.0.0 以上
+ - 项目：[hexo-theme-themia](https://github.com/kaedea/hexo-theme-themia)
 
 ### 主题特点
 #### 响应式主题
