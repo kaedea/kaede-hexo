@@ -10,7 +10,7 @@ tags:
 
 clearReading: false
 metaAlignment: left
-thumbnailImage: ../../../../asset/image/post-thumb-01.gif
+thumbnailImage: http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/86366451.jpg
 coverImage: 
 coverSize: 
 coverCaption: 

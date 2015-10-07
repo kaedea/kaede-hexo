@@ -11,7 +11,7 @@ tags:
 
 clearReading: 
 metaAlignment: left
-thumbnailImage: post-thumb.jpg
+thumbnailImage: http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/32157517.jpg
 coverImage: 
 coverSize: 
 coverCaption: 
@@ -28,11 +28,11 @@ comments: true
 
 ## General images
 
-![](wallpaper-2572384.jpg)
+![](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/56426110.jpg)
 
-![Caption](wallpaper-2311325.jpg)
+![Caption](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/8297258.jpg)
 
-![](wallpaper-878514.jpg)
+![](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/84485289.jpg)
 
 ![Small Picture](http://placehold.it/350x150.jpg)
 

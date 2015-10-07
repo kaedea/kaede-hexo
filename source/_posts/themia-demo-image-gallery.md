@@ -11,22 +11,22 @@ tags:
 
 clearReading: true
 metaAlignment: left
-thumbnailImage: thumbnail.jpg
+thumbnailImage: http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/41094746.jpg
 coverImage: 01.jpg
 coverSize: full
 coverCaption: "五年目の放课后"
 coverMeta: in
 photos:
-    - 01.jpg
-    - 02.jpg
-    - 03.jpg
-    - 04.jpg
-    - 05.jpg
-    - 06.jpg
-    - 07.jpg
-    - 08.jpg
-    - 09.jpg
-    - 10.jpg
+    - http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/866615.jpg
+    - http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/21325306.jpg
+    - http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/34680032.jpg
+    - http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/71242180.jpg
+    - http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/38220063.jpg
+    - http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/55325547.jpg
+    - http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/96528600.jpg
+    - http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/53724607.jpg
+    - http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/51520054.jpg
+    - http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/36369251.jpg
 
 comments: true
 

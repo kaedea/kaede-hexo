@@ -11,7 +11,7 @@ tags:
 
 clearReading: false
 metaAlignment: left
-thumbnailImage: thumbnail_themia-demo-video.jpg
+thumbnailImage: http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/59285791.jpg
 coverImage: 
 coverSize: 
 coverCaption: 

@@ -1,8 +1,11 @@
-title: 开发神器 — 一些免费流畅的Android模拟器
+title: 那些流畅的开发向Android模拟器
 date: 2015-08-19 00:30:04
 categories: Android
-tags: android
-thumbnailImage: thumbnail_01.jpg
+tags: 
+ - android
+ - emulator
+ - develop tool
+thumbnailImage: http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/24858194.jpg
 ---
 
 “工欲善其事，必先利其器。” 使用`Android模拟器`开发和调试应用肯定比使用真机方便。但相比`XCODE`的`IOS模拟器`，Android SDK自带的`AVD`实在不争气，不过一些第三方的模拟器却表现不俗！
@@ -38,16 +41,16 @@ thumbnailImage: thumbnail_01.jpg
  3. 根据自己的系统[下载并安装](https://www.genymotion.com/#!/download) Genymotion；
  
 启动Genymotion
-![enter image description here](https://lh3.googleusercontent.com/66_K51N5wvvgXz91KyE2BP7tuDJsQjyjeYgN65uixqk=s600 )
+![启动Genymotion](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/6282451.jpg)
 
 添加设备
-![enter image description here](https://lh3.googleusercontent.com/-0u3sa4q88cg/VUIeKQKeUqI/AAAAAAAAA78/Jap-h9C3aWA/s600/QQ%25E6%2588%25AA%25E5%259B%25BE20150430201856.jpg )
+![添加设备](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/81557460.jpg)
 
 启动设备
-![enter image description here](https://lh3.googleusercontent.com/-pjk8lBm2pqo/VUIffDXlDeI/AAAAAAAAA8Q/NaSSaBxDNOo/s600/000.gif )
+![启动设备](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/44012361.jpg)
 
 免费版跟收费版功能的区别
-![enter image description here](https://lh3.googleusercontent.com/-Xswg7RXC9dw/VUIgdIGFcUI/AAAAAAAAA8k/da5cAvJ70hs/s800/QQ%25E6%2588%25AA%25E5%259B%25BE20150430202656.jpg)
+![免费版跟收费版功能的区别](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/56543651.jpg)
 
 此外，Genymotion还提供了`Eclipse`和`Intellij Idea(Android Studio)`的插件，方便你从IDE启动模拟器，不过目前插件的功能也仅仅是用于启动模拟器。
 
@@ -79,16 +82,13 @@ Android 第一個第三方的模拟器就是 `Bluestacks`，网络上也有許�
 首先，xp用户需先安装[Windows Installer 4.5](http://www.pc6.com/softview/SoftView_451.html)和[.NET Framework 2.0 SP2](http://www.pc6.com/softview/SoftView_65398.html)，否则会提示出错，我们这里也提供了下载，如果电脑上已经安装过这些软件可以跳过此步。然后到官网[下载](http://www.bluestacks.net.cn/Download/)最新的安装包并安装。
 
 安装
-
-![enter image description here](https://lh3.googleusercontent.com/-KJO99RX-wIA/VUI0BN7WmNI/AAAAAAAAA9E/U0afkiEbw2I/s600/17648984_0800.png )
+![](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/7996490.jpg)
 
 启动模拟器，搜索应用并安装
-
-![enter image description here](https://lh3.googleusercontent.com/-1QzELPsE7Hc/VUI0ZxOGJzI/AAAAAAAAA9Y/q4o_ypE_5v0/s600/17649209_0800.png)
+![](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/45650691.jpg)
 
 运行APP
-
-![enter image description here](https://lh3.googleusercontent.com/-_OQOLUGTqpk/VUI0wxO2HTI/AAAAAAAAA9s/4X2O6D3axRI/s600/17650830_0800.png)
+![](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/66469231.jpg)
 
 #### 不足之处
  `Bluestacks`相比`Genymotion`，不容易出现无法启动的问题，也支持ARM Library，但不足之处也是明显的：
@@ -118,16 +118,13 @@ Android 第一個第三方的模拟器就是 `Bluestacks`，网络上也有許�
  2. 下载并安装[Droid4X](http://www.droid4x.cn/)；
 
 运行模拟器
-
-![enter image description here](https://lh3.googleusercontent.com/DjrAtoUz-Zh6hTZ9GAzBKXPWer18hMphWBUTJJ8u-_c=s600)
+![](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/89203007.jpg)
 
 设置竖屏
-
-![enter image description here](https://lh3.googleusercontent.com/-1zJYm3AWydI/VUI5zi2X0mI/AAAAAAAAA-Y/DiZSTWjCaoo/s600/QQ%25E6%2588%25AA%25E5%259B%25BE20150430221611.jpg)
+![](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/17900798.jpg)
 
 运行APP
-
-![enter image description here](https://lh3.googleusercontent.com/-CaJXiFw7VfQ/VUI7VxLENiI/AAAAAAAAA-w/N5IXoTVpfzY/s600/0000.gif)
+![enter image description here](http://7xih5c.com1.z0.glb.clouddn.com/0000.gif)
 
 #### 不足之处
 `Droid4X`可以说得上没什么可以挑剔的地方，非要说的话，就是流畅度稍微不如`Genymotion`，UI不如`Genymotion`“接地气”，更像是为了游戏而设计的。此外，也不想`Genymotion`那样有众多Android系统版本可以选择，不过这些都是无关紧要的功能，毕竟我们不会用一个模拟器去作覆盖测试，是不？
@@ -135,9 +132,8 @@ Android 第一個第三方的模拟器就是 `Bluestacks`，网络上也有許�
 ### 总结
 从使用经验上来看，`Droid4X`确实是一款值得每个Android开发汪使用的模拟器，试想一下，每次完成Coding，轻轻按一下`Shift+F10`，或者使用“重大事件决策按钮”，如下图，
 
-![enter image description here](https://lh3.googleusercontent.com/-j7I8DsniS0E/VUI96nrb25I/AAAAAAAAA_I/OzLOR28dgcE/s600/QQ%25E6%2588%25AA%25E5%259B%25BE20150430223512.jpg)
+![](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/35383762.jpg)
 
 轻轻一按就将APP部署到模拟器上，再也不用为了AVD模拟器的卡顿而烦恼，再也不用担心不小心碰了一下USB数据线而导致APP部署失败，再也不用担心Logcat没有打印日志，开发过程是不是变得淋漓尽致？  其实，我一开始在寻找AVD的替代品，当找到`Genymotion`的时候是很感动的，不过为此还推荐给不少朋友使用，但是用久了，发现不支持ARM Libary就觉得不妥了，后面Genymotion启动经常失败更是觉得坑爹。
 
 这次，朋友推荐我使用`Droid4X`，一开始我是拒绝的，不能说你使用我就使用是不，用过之后，才发现这货简直是加了特技的，duang~的那么一下，APP就跑起来了。
-

@@ -11,7 +11,7 @@ tags:
 
 clearReading: false
 metaAlignment: left
-thumbnailImage: ../../../../asset/image/post-thumb-00.jpg
+thumbnailImage: http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/21577335.jpg
 coverImage: 
 coverSize: 
 coverCaption: 
@@ -21,9 +21,11 @@ photos:
 comments: true
 ---
 
+在日志中可以同时使用**Markdown**和**HTML**标签，从而可以方便地实现各种文本效果。
 这篇日志用于展示**Markdown**和**HTML**元素的显示效果。
-The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don't forget to redefine the style by yourself.
 <!-- more -->
+
+The purpose of this post is to help you make sure all of HTML elements can display properly. If you use CSS reset, don't forget to redefine the style by yourself.
 
 ---
 

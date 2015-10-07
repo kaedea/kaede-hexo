@@ -12,7 +12,7 @@ tags:
 
 clearReading: false
 metaAlignment: left
-thumbnailImage: ../../../../asset/image/post-thumb-00.gif
+thumbnailImage: http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/7722088.jpg
 coverImage: 
 coverSize: 
 coverCaption: 
@@ -25,7 +25,9 @@ comments: true
 展示在日志中插入代码块，支持高亮显示，并且有几种显示代码块的模式，能显示本地或者远程托管的代码。
 支持多语言代码检测以及高亮。
 <!-- more -->
+
 <!-- toc -->
+
 ## 基础使用
 ### Normal code block
 
