@@ -23,6 +23,8 @@ comments: true
 [Themia](https://github.com/kaedea/hexo-theme-themia)是一个华丽的Hexo响应式主题，由**LouisBarranqueiro**开发的主题[TranquiPeak](https://github.com/LouisBarranqueiro/tranquilpeak-hexo-theme)的基础上改造而来，**大部分功能都是原有主题的**，只是为了我自己的需求做了小部分的修改。
 <!--more-->
 
+![](http://7xih5c.com1.z0.glb.clouddn.com/15-10-8/37832013.jpg)
+
 下面是**LouisBarranqueiro**本人对于该主题的介绍：
 >Tranquilpeak is a gorgeous responsive theme for Hexo blog framework. It has many features and integrated services to improve user experience.
 
