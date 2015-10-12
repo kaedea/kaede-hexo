@@ -22,6 +22,7 @@ photos:
 Android **MVP模式**也不是什么新鲜的东西了，我在自己的项目了也普遍地使用了这个设计模式。当项目越来越庞大、复杂，参与的研发人员越来越多的时候，**MVP模式**的优势就充分显示出来了。
 <!-- more -->
 *导读：MVP模式是MVC模式在Android上的一种变体，介绍MVP就得先介绍MVC。在MVC模式中，Activity应该是属于View这一层。而实质上，它既承担了View，更多地却包含一些Controller的东西在里面。这对于开发与维护来说极度不利，耦合度大高了。把Activity的View和Controller抽离出来就变成了View和Presenter，这就是MVP模式。*
+<!-- toc -->
 
 ## 什么是MVC模式
 MVP模式（Model-View-Presenter）可以说是MVC模式（Model-View-Controller）在Android开发上的一种变种、进化模式。后者大家可能比较熟悉，就算不熟悉也可能或多或少地在自己的项目中用到过。要介绍MVP模式，记不得不先说说MVC模式。MVC模式的结构分为三部分，实体层的Model，视图层的View，以及控制层的Controller层。
@@ -54,3 +55,21 @@ MVP的好处都有啥，谁说对了就给他……
 
 说了这么多，没看懂？好吧，我自己都没看懂自己写的，我们还是直接看代码吧。
 
+## MVP模式的使用
+![](http://7xih5c.com1.z0.glb.clouddn.com/15-10-12/94032090.jpg)
+
+上面一张简单的MVP模式的UML图，从图中可以看出，使用MVP，至少需要经历以下步骤：
+
+ 1. 创建IPresenter接口，把所有业务逻辑的接口都放在这里，并创建它的实现PresenterCompl（在这里可以方便地查看业务功能，由于接口可以有多种实现所以也方便写单元测试）
+ 2. 创建IView接口，把所有视图逻辑的接口都放在这里，其实现类是当前的Activity/Fragment
+ 3. 由UML图可以看出，Activity里包含了一个IPresenter，而PresenterCompl里又包含了一个IView并且依赖了Model。Activity里只保留对IPresenter的调用，其它工作全部留到PresenterCompl中实现
+ 4. Model并不是必须有的，但是一定会有View和Presenter
+
+通过上面的介绍，MVP的主要特点就是把Activity里的许多逻辑都抽离到View和Presenter接口中去，并又具体的实现类来完成。这种写法多了IView和IPresenter接口，这在某种程度上加大了开发的工作量，刚开始使用MVP的小伙伴可能会觉得写法比较别扭，而且难以记住。其实一开始想太多也没有什么卵用，就是要在具体项目中多写几次，才能熟悉MVP模式的写法，以及享♂受其带来的好处。
+
+扯了这么多，但是好像并没有什么卵用，毕竟
+>Talk is cheap, let me show you the code!
+
+所以还是来写一下实际的项目吧。
+
+## MVP模式简单实例
