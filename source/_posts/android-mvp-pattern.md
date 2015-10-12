@@ -24,6 +24,12 @@ Android **MVP模式**也不是什么新鲜的东西了，我在自己的项目�
 *导读：MVP模式是MVC模式在Android上的一种变体，介绍MVP就得先介绍MVC。在MVC模式中，Activity应该是属于View这一层。而实质上，它既承担了View，更多地却包含一些Controller的东西在里面。这对于开发与维护来说极度不利，耦合度大高了。把Activity的View和Controller抽离出来就变成了View和Presenter，这就是MVP模式。*
 <!-- toc -->
 
+## 基本信息
+
+- 作者：[Kaede Akatsuki](http://kaedea.com)
+- 项目：[Android-MVP-Pattern](https://github.com/kaedea/Android-MVP-Pattern)
+- 出处：[Android MVP模式 简单易懂的介绍方式](http://kaedea.com/2015/10/11/android-mvp-pattern)
+
 ## 什么是MVC模式
 MVP模式（Model-View-Presenter）可以说是MVC模式（Model-View-Controller）在Android开发上的一种变种、进化模式。后者大家可能比较熟悉，就算不熟悉也可能或多或少地在自己的项目中用到过。要介绍MVP模式，记不得不先说说MVC模式。MVC模式的结构分为三部分，实体层的Model，视图层的View，以及控制层的Controller层。
 
