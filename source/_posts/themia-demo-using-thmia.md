@@ -1,4 +1,4 @@
-title: "Hexo响应式主题 Themia"
+title: "Hexo响应式主题 : Themia"
 date: 2015-10-05 14:00:00
 layout: 
 link: 
@@ -11,8 +11,7 @@ tags:
 
 clearReading: false
 metaAlignment: left
-thumbnailImage: http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/37512301.jpg
-coverImage: 
+thumbnailImage: 
 coverSize: 
 coverCaption: 
 coverMeta: 
@@ -21,19 +20,21 @@ photos:
 comments: true
 ---
 [Themia](https://github.com/kaedea/hexo-theme-themia)是一个华丽的Hexo响应式主题，由**LouisBarranqueiro**开发的主题[TranquiPeak](https://github.com/LouisBarranqueiro/tranquilpeak-hexo-theme)的基础上改造而来，**大部分功能都是原有主题的**，只是为了我自己的需求做了小部分的修改。
-<!--more-->
 
 ![](http://7xih5c.com1.z0.glb.clouddn.com/15-10-8/37832013.jpg)
+ <!--more-->
+
+
 
 下面是**LouisBarranqueiro**本人对于该主题的介绍：
 >Tranquilpeak is a gorgeous responsive theme for Hexo blog framework. It has many features and integrated services to improve user experience.
-
-<!--toc-->
 
 ### 基本信息
  - 作者：[Kaedea](https://github.com/kaedea) （基于[TranquiPeak](https://github.com/LouisBarranqueiro/tranquilpeak-hexo-theme)）
  - 环境：[Hexo](https://hexo.io/zh-cn/) 3.0.0 以上
  - 项目：[hexo-theme-themia](https://github.com/kaedea/hexo-theme-themia)
+
+<!--toc-->
 
 ### 主题特点
 #### 响应式主题
@@ -179,7 +180,7 @@ thumbnailImage: thumbnail_02.jpg
 
 
 #### 日志封面图 Post CoverImage
-封面图也是TranquiPeak主题的特色功能，在日志里，你可以设置一张大的海报作为日志的封面，具体效果可以参考[CoverImage Post](http://kaedea.com/2015/09/29/themia-demo-cover-image/)。
+封面图也是TranquiPeak主题的特色功能，在日志里，你可以设置一张大的海报作为日志的封面，具体效果可以参考[CoverImage Post](http://kaedea.com/demo-themia/2015/09/29/themia-demo-cover-image/)。
 
 给日志设置一张封面图，只需要在日志的`.md`文件里设置
 {% codeblock post.md https://github.com/kaedea GitHub %}
@@ -208,11 +209,11 @@ coverMeta: out
 FancyBox
 ![](http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/51537048.jpg)
 
-具体情况可以参考[Themia 演示 - demostrate image](http://kaedea.com/2015/09/28/themia-demo-image-demo/)
+具体情况可以参考[Themia 演示 - demostrate image](http://kaedea.com/demo-themia/2015/09/28/themia-demo-image-demo/)
 
 
 #### 相册型日志 Gallery Post
-并不是所有的日志的主体都是文字哈，有时候可以发布一组图片作为日志，这时候当然要选用高大上的**Gallery Post**了，具体效果可以参考[Themia 演示 - image gallery post](http://kaedea.com/2015/09/05/themia-demo-image-gallery/)。
+并不是所有的日志的主体都是文字哈，有时候可以发布一组图片作为日志，这时候当然要选用高大上的**Gallery Post**了，具体效果可以参考[Themia 演示 - image gallery post](http://kaedea.com/demo-themia/2015/09/05/themia-demo-image-gallery/)。
 
 
 #### 日志分享功能
@@ -229,9 +230,9 @@ TranquiPeak主题自带了**Disqus**用户评论系统（这也是静态博客�
 
 #### 其他功能
 
-- Hexo Tag Plugins 支持 [Themia 演示 - hexo tag plugins](http://kaedea.com/2015/09/28/themia-demo-hexo-tag-plugins/)
-- 同时支持**Markdown**和**Html** [Themia 演示 - archive elements](http://kaedea.com/2015/09/12/themia-demo-elements/)
-- 使用视屏、音乐等资源 [Themia 演示 - insert music & video](http://kaedea.com/2015/09/06/themia-demo-video/)
+- Hexo Tag Plugins 支持 [Themia 演示 - hexo tag plugins](http://kaedea.com/demo-themia/2015/09/28/themia-demo-hexo-tag-plugins/)
+- 同时支持**Markdown**和**Html** [Themia 演示 - archive elements](http://kaedea.com/demo-themia/2015/09/12/themia-demo-elements/)
+- 使用视屏、音乐等资源 [Themia 演示 - insert music & video](http://kaedea.com/demo-themia/2015/09/06/themia-demo-video/)
 
 
 ### Themia做了哪些更改？

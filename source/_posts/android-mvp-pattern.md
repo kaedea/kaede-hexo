@@ -11,8 +11,7 @@ layout:
 link:
 clearReading:
 metaAlignment:
-thumbnailImage: http://7xih5c.com1.z0.glb.clouddn.com/15-10-11/76327834.jpg
-coverImage:
+thumbnailImage: 
 coverSize:
 coverCaption:
 coverMeta:
@@ -20,8 +19,10 @@ photos:
 
 ---
 Android **MVP模式**<sup>\[1\]</sup>也不是什么新鲜的东西了，我在自己的项目里也普遍地使用了这个设计模式。当项目越来越庞大、复杂，参与的研发人员越来越多的时候，**MVP模式**的优势就充分显示出来了。
+
+MVP模式是MVC模式在Android上的一种变体，要介绍MVP就得先介绍MVC。在MVC模式中，Activity应该是属于View这一层。而实质上，它既承担了View，同时也包含一些Controller的东西在里面。这对于开发与维护来说不太友好，耦合度大高了。把Activity的View和Controller抽离出来就变成了View和Presenter，这就是MVP模式.。
 <!-- more -->
-*导读：MVP模式是MVC模式在Android上的一种变体，要介绍MVP就得先介绍MVC。在MVC模式中，Activity应该是属于View这一层。而实质上，它既承担了View，同时也包含一些Controller的东西在里面。这对于开发与维护来说不太友好，耦合度大高了。把Activity的View和Controller抽离出来就变成了View和Presenter，这就是MVP模式。*
+
 <!-- toc -->
 
 ## 基本信息
