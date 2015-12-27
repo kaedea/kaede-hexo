@@ -168,6 +168,23 @@ blockquote {
     content: ' — ';
     padding: 0 0.3em; }
 
+.float-about-weibo {
+  max-width: 280px;
+  max-height: 470px;
+  float: none;
+  margin-left: 10px;
+  margin-bottom: 10px; }
+
+.float-cv-avatar {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 20px; }
+
+@media only screen and (max-width: 479px) {
+  .float-cv-avatar {
+    max-width: 0px;
+    max-height: 0px; } }
+
 @media only screen and (max-width: 767px) {
   body {
     font-size: 1.4rem; }
@@ -199,6 +216,21 @@ blockquote {
     font-size: 1.55rem; }
   h6 {
     font-size: 1.45rem; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .float-about-weibo {
+    float: right;
+    margin-top: -75px; } }
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+  .float-about-weibo {
+    float: right;
+    margin-top: -75px; } }
+
+@media only screen and (min-width: 1400px) {
+  .float-about-weibo {
+    max-width: 0px;
+    max-height: 0px; } }
 
 #about {
   display: none;
@@ -1956,6 +1988,8 @@ a.link-unstyled a.link:active {
     hypens: "auto"; }
   .postShorten .postShorten-excerpt {
     margin-top: 15px; }
+    .postShorten .postShorten-excerpt img {
+      max-width: 100%; }
   .postShorten .postShorten-content {
     margin-top: 25px; }
 

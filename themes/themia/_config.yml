@@ -30,11 +30,11 @@ sidebar:
         home:
             title: global.home
             url: /
-            icon: home
+            icon: circle-thin
         categories:
             title: global.categories
             url: /all-categories
-            icon: bookmark
+            icon: star-o
         #tags:
         #    title: global.tags
         #    url: /all-tags
@@ -52,13 +52,13 @@ sidebar:
         about:
             title: global.about
             url: /about
-            icon: info-circle
-
+            icon: terminal
+            
     author_links:
          github:
              title: global.github
              url: https://github.com/kaedea
-             icon: github-square
+             icon: github
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -82,7 +82,7 @@ sidebar:
          mail:
              title: global.mail
              url: mailto:kidhaibara@gmail.com
-             icon: envelope-o
+             icon: at
     #rss:
     #    rss:
     #        title: global.rss
@@ -142,9 +142,9 @@ go_to_message: Go to the website
 # Current image is on Cloudinary.
 # Otherwise put your image in folder `source/_images/` (development)  or in `source/assets/images/` if you can't or don't want to build the theme,
 # and use relative url : `/assets/images/your-image.png`
-cover_image: http://7xih5c.com1.z0.glb.clouddn.com/15-10-7/29875909.jpg
+cover_image: http://7xih5c.com1.z0.glb.clouddn.com/15-12-26/63612911.jpg
 # Your favicon located in folder `source/_images/` (development) or in `source/assets/images/` (production)
-favicon: favicon.png
+favicon: favicon2.png
 # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
 image_gallery: true
 # Pagination behavior of archive, category and tag pages (false: pagination disabled, true: pagination enabled)

@@ -3,11 +3,17 @@
     'utils/variables';
 
 @import
+    'utils/mixins/bottom-bar',
     'utils/mixins/button',
     'utils/mixins/category',
     'utils/mixins/form',
+    'utils/mixins/header',
+    'utils/mixins/main',
     'utils/mixins/opacity',
+    'utils/mixins/post-header-cover',
     'utils/mixins/prefix',
+    'utils/mixins/share-options-bar',
+    'utils/mixins/sidebar',
     'utils/mixins/tag';
 
 @import
@@ -16,6 +22,7 @@
 @import
     'layout/about',
     'layout/blog',
+    'layout/bottom-bar',
     'layout/cover',
     'layout/footer',
     'layout/header',
@@ -28,6 +35,7 @@
     'components/button',
     'components/caption',
     'components/category',
+    'components/figure',
     'components/form',
     'components/hide',
     'components/highlight',
@@ -40,6 +48,9 @@
     'components/post',
     'components/post-actions',
     'components/pullquote',
+    'components/post-header-cover',
+    'components/postShorten',
+    'components/share-options-bar',
     'components/tag',
     'components/text',
     'components/tooltip',

@@ -1,4 +1,4 @@
-title: 那些流畅的开发向Android模拟器
+title: 一些流畅的Android模拟器
 date: 2015-08-19 00:30:04
 categories: Android
 tags: 

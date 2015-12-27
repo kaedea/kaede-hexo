@@ -66,6 +66,9 @@
     }
     .postShorten-excerpt, {
         margin-top: 15px;
+        img {
+            max-width: 100%;
+        }
     }
     .postShorten-content {
         margin-top: 25px;

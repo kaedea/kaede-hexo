@@ -8,7 +8,7 @@
      * @constructor
      */
     var AboutCard = function() {
-        this.$openBtn   = $("#sidebar, #header").find("a[href$='/#about']");
+        this.$openBtn   = $("#sidebar, #header").find("a[href*='#about']");
         this.$closeBtn  = $('#about-btn-close');
         this.$blog      = $('#blog');
         this.$about     = $('#about');
@@ -22,18 +22,16 @@
          */
         run: function() {
             var self = this;
-
             // Detect click on open button
             self.$openBtn.click(function(e) {
                 e.preventDefault();
                 self.play();
-            })
-
+            });
             // Detect click on close button
             self.$closeBtn.click(function(e) {
                 e.preventDefault();
                 self.playBack();
-            })
+            });
         },
 
         /**
@@ -659,11 +657,94 @@
             }
         }
     };
+
     $(document).ready(function() {
         if ($('.post-bottom-bar').length) {
             var postBottomBar = new PostBottomBar();
             postBottomBar.run();
         }
+    });
+}(jQuery);;+function($) {
+    'use strict';
+
+    // Open and close the share options bar
+
+    /**
+     * ShareOptionsBar
+     * @constructor
+     */
+    var ShareOptionsBar = function() {
+        this.$shareOptionsBar = $('#share-options-bar');
+        this.$openBtn      = $('.btn-open-shareoptions');
+        this.$closeBtn     = $('#share-options-mask');
+    };
+
+    ShareOptionsBar.prototype = {
+
+        /**
+         * Run ShareOptionsBar feature
+         */
+        run: function() {
+            var self = this;
+
+            // Detect the click on the open button
+            self.$openBtn.click(function() {
+                if (!self.$shareOptionsBar.hasClass('opened')) {
+                    self.openShareOptions();
+                    self.$closeBtn.show();
+
+                }
+            });
+
+            // Detect the click on the close button
+            self.$closeBtn.click(function() {
+                if (self.$shareOptionsBar.hasClass('opened')) {
+                    self.closeShareOptions();
+                    self.$closeBtn.hide();
+                }
+            });
+        },
+
+        /**
+         * Open share options bar
+         */
+        openShareOptions: function() {
+            var self = this;
+
+            // Check if the share option bar isn't opened and prevent multiple click on the open button with `.processing` class
+            if (!self.$shareOptionsBar.hasClass('opened') && !this.$shareOptionsBar.hasClass('processing')) {
+                // Open the share option bar
+                self.$shareOptionsBar.addClass('processing opened');
+
+                setTimeout(function() {
+                    self.$shareOptionsBar.removeClass('processing');
+                }, 250);
+            }
+        },
+
+        /**
+         * Close share options bar
+         */
+        closeShareOptions: function() {
+            var self = this;
+
+            // Check if the share options bar is opened and prevent multiple click on the close button with `.processing` class
+            if (self.$shareOptionsBar.hasClass('opened') && !this.$shareOptionsBar.hasClass('processing')) {
+                // Close the share option bar
+                self.$shareOptionsBar
+                    .addClass('processing')
+                    .removeClass('opened');
+
+                setTimeout(function() {
+                    self.$shareOptionsBar.removeClass('processing');
+                }, 250);
+            }
+        }
+    };
+
+    $(document).ready(function() {
+        var shareOptionsBar = new ShareOptionsBar();
+        shareOptionsBar.run();
     });
 }(jQuery);;+function($) {
     'use strict';
@@ -678,8 +759,11 @@
         this.$sidebar = $('#sidebar');
         this.$openBtn = $('#btn-open-sidebar');
         // Elements where the user can click to close the sidebar
-        this.$closeBtn = $('#header, #main');
-        this.$blog     = $('#header, #main');
+        this.$closeBtn = $('#header, #main, .post-header-cover');
+        // Elements affected by the swipe of the sidebar
+        // The `pushed` class is added to each elements
+        // Each element has a different behavior when the sidebar is opened
+        this.$blog = $('body, .post-bottom-bar, #header, #main, .post-header-cover');
         // If you change value of `mediumScreenWidth`,
         // you have to change value of `$screen-min: (md-min)` too in `source/_css/utils/variables.scss`
         this.mediumScreenWidth = 768;
@@ -698,14 +782,14 @@
                 if (!self.$sidebar.hasClass('pushed')) {
                     self.openSidebar();
                 }
-            })
+            });
 
             // Detect the click on close button
             self.$closeBtn.click(function() {
                 if (self.$sidebar.hasClass('pushed')) {
                     self.closeSidebar();
                 }
-            })
+            });
 
             // Detect resize of the windows
             $(window).resize(function() {
@@ -717,7 +801,7 @@
                 else {
                     self.closeSidebar();
                 }
-            })
+            });
         },
 
         /**
@@ -740,14 +824,14 @@
          * Reset sidebar position
          */
         resetSidebarPosition: function() {
-            this.$sidebar.removeClass('pushed')
+            this.$sidebar.removeClass('pushed');
         },
 
         /**
          * Reset blog position
          */
         resetBlogPosition: function() {
-            this.$blog.removeClass('pushed')
+            this.$blog.removeClass('pushed');
         },
 
         /**
@@ -791,7 +875,7 @@
             // Check if the blog isn't swiped and prevent multiple click on the open button with `.processing` class
             if (!self.$blog.hasClass('pushed') && !this.$blog.hasClass('processing')) {
                 // Swipe the blog to the right
-                self.$blog.addClass('processing pushed')
+                self.$blog.addClass('processing pushed');
 
                 setTimeout(function() {
                     self.$blog.removeClass('processing');
@@ -824,16 +908,15 @@
         sidebar.run();
     });
 }(jQuery);;+(function($, sr) {
-
     // debouncing function from John Hann
     // http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
-    var debounce  = function(func, threshold, execAsap) {
+    var debounce = function(func, threshold, execAsap) {
         var timeout;
 
-        return function debounced () {
+        return function debounced() {
             var obj = this, args = arguments;
 
-            function delayed () {
+            function delayed() {
                 if (!execAsap) {
                     func.apply(obj, args);
                 }
@@ -850,7 +933,8 @@
 
             timeout = setTimeout(delayed, threshold || 100);
         };
-    }
+    };
+
     jQuery.fn[sr] = function(fn) {
         return fn ? this.bind('resize', debounce(fn)) : this.trigger(sr);
     };
