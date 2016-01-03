@@ -145,12 +145,13 @@ blockquote {
 
 // about page, floating weibo
 .float-about-weibo { 
+    // background-color: #555555;
     max-width: 280px;
-    max-height: 470px;
+    max-height: 510px;
     float: none;
     margin-left: 10px;
     margin-bottom:10px;
-    }
+}
 
 // cv page, floating avatar
 .float-cv-avatar { 
@@ -163,7 +164,7 @@ blockquote {
     .float-cv-avatar { 
     max-width: 0px;
     max-height: 0px;
-}
+    }
 }
 
 

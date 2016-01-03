@@ -3,7 +3,7 @@ date: 2015-12-26 20:42:14
 ---
 **一只来自宇宙的喵星人**
 <div class="float-about-weibo">
-<iframe width="100%" height="470" class="share_self" frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&amp;width=0&amp;height=470&amp;fansRow=1&amp;ptype=1&amp;speed=0&amp;skin=1&amp;isTitle=1&amp;noborder=1&amp;isWeibo=1&amp;isFans=1&amp;uid=1736157133&amp;verifier=b0bccd3f&amp;dpc=1" >
+<iframe width="100%" height="508" class="share_self" frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&amp;width=0&amp;height=508&amp;fansRow=1&amp;ptype=1&amp;speed=0&amp;skin=1&amp;isTitle=1&amp;noborder=1&amp;isWeibo=1&amp;isFans=1&amp;uid=1736157133&amp;verifier=b0bccd3f&amp;dpc=1" >
 </iframe>
 </div>
 
