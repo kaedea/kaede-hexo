@@ -4,7 +4,7 @@ date: 2013-12-26 22:52:56
 
 Last upadate : 2015-12
 
-<div class="float-cv-avatar" style="width:180px; height:140px; object-fit:cover;">
+<div class="float-cv-avatar">
     <img style="width:100%; height:100%; object-fit:cover;" src="http://7xih5c.com1.z0.glb.clouddn.com/15-12-13/50270186.jpg" alt="" title="Kaede Akatsuki"/>
 </div>
 
@@ -12,7 +12,7 @@ Last upadate : 2015-12
 
  - 姓名：谢晓枫（Kaede）
  - 大学：广东外语外贸大学（2008 - 2013）
- - 专业：计算机、日本語（4+1）
+ - 专业：计算机、日本語（"4+1"双专业）
  - 语言：CET6（520）、N1（140）
  - 联系：Gmail（kidhaibara@gmail.com）、手机（13411188923）
  - 社交：GitHub（[kaedea](https://github.com/kaedea)）、博客（[kaedea.com](http://kaedea.com/)）、知乎（[kaedea](http://www.zhihu.com/people/kaedea)）
@@ -46,4 +46,23 @@ Last upadate : 2015-12
  - 已经能从实际开发经验中总结出一套性能调优方案，大到异步控制、内存泄露、布局优化等，小到Listener复用、使用i++代替Iterator等，这个阶段开始已经不满足单纯的完成业务需求，在追求性能最优化的同时也考虑着如何设计和规范代码（比如MVP）；
  - 发现SDK自带的源码只是一小部分，其他源码需要到AOSP Repo里查找，知道AsyncTask源码在不同Android版本的差异，理解为什么dex在Dalvik和ART都能稳定工作，知道DexClassLoader和PathClassLoader的区别；
  - 开始参与公司新项目框架的开发，并为其他项目的解决方案提供建议，尝试优化一些第三方轮子并运用到自己的轮子，大量提交PullRequest和Issue，采用一些非常规的开发方式，比如动态加载，知道热部署和插件化的区别，开始接触响应式编程，觉得这种方式非常适合经常变动的业务；
- - 开始挖Swift和Kotlin新坑，不过认为不能什么都半桶水，仍旧以Android为主坑，认为代码的优秀在于程序的设计思想，而不在语言本身；
+ - 开始挖Swift和RxJava新坑，不过认为不能什么都半桶水，仍旧以Android为主坑，认为代码的优秀在于程序的设计思想，而不在语言本身；
+
+
+<!-- css -->
+<style type="text/css">
+.float-cv-avatar {
+  width:180px; 
+  height:140px; 
+  object-fit:cover;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 20px; 
+}
+@media only screen and (max-width: 479px) {
+  .float-cv-avatar {
+    margin-top: -30px;
+    float: none;
+    } 
+}
+</style>

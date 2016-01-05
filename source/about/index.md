@@ -60,3 +60,32 @@ date: 2015-12-26 20:42:14
 
 
 
+<!-- css -->
+<style type="text/css">
+.float-about-weibo {
+  max-width: 280px;
+  max-height: 510px;
+  float: none;
+  margin-left: 10px;
+  margin-bottom: 10px; 
+   margin-top: -30px;
+}
+/*CSS自适应*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .float-about-weibo {
+    float: right;
+    margin-top: -75px; } }
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+  .float-about-weibo {
+    float: right;
+    margin-top: -75px; } }
+
+@media only screen and (min-width: 1400px) {
+  .float-about-weibo {
+    max-width: 0px;
+    max-height: 0px; } }
+</style>
+
+
+

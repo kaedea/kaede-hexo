@@ -143,31 +143,6 @@ blockquote {
     }
 }
 
-// about page, floating weibo
-.float-about-weibo { 
-    // background-color: #555555;
-    max-width: 280px;
-    max-height: 510px;
-    float: none;
-    margin-left: 10px;
-    margin-bottom:10px;
-}
-
-// cv page, floating avatar
-.float-cv-avatar { 
-    float: right;
-    margin-left: 10px;
-    margin-bottom:20px;
-}
-
-@media #{$xsmall-and-down} {
-    .float-cv-avatar { 
-    max-width: 0px;
-    max-height: 0px;
-    }
-}
-
-
 // Reduce global font-size base and headings font size on small screen and down
 @media #{$small-and-down} {
     body {
@@ -193,29 +168,3 @@ blockquote {
         }
     }
 }
-
-@media #{$medium-only} {
-    .float-about-weibo { 
-    float: right;
-    margin-top: -75px;
-    }
-}
-
-@media #{$large-only} {
-     .float-about-weibo { 
-    float: right;
-    margin-top: -75px;
-    }
-}
-
-@media #{$xlarge-and-up} {
-     .float-about-weibo { 
-    max-width: 0px;
-    max-height: 0px;
-    }
-}
-
-
-
-
-    

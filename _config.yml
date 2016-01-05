@@ -80,9 +80,3 @@ deploy:
   type: git
   repository: https://github.com/kaedea/kaedea.github.io.git
   branch: master
-
-# Markdown-it config
-## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
-markdown: 
-  render:
-    html: true
