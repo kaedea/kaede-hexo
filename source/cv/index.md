@@ -2,7 +2,7 @@ title: About Me
 date: 2013-12-26 22:52:56
 ---
 
-Last upadate : 2015-12
+Last upadate : 2016-01
 
 <div class="float-cv-avatar">
     <img style="width:100%; height:100%; object-fit:cover;" src="http://7xih5c.com1.z0.glb.clouddn.com/15-12-13/50270186.jpg" alt="" title="Kaede Akatsuki"/>
