@@ -1,4 +1,4 @@
-title: "Anroid性能调优 一本正经的胡说八道"
+title: "Android性能调优 一本正经的胡说八道"
 categories:
   - Android
 tags:
@@ -10,7 +10,7 @@ layout:
 link:
 clearReading:
 metaAlignment:
-thumbnailImage: 
+thumbnailImage:
 coverSize:
 coverCaption:
 coverMeta:

@@ -1,4 +1,4 @@
-title: "Anroid性能调优 技术优化点"
+title: "Android性能调优 技术优化点"
 categories:
   - Android
 tags:
@@ -10,7 +10,7 @@ layout:
 link:
 clearReading:
 metaAlignment:
-thumbnailImage: 
+thumbnailImage:
 coverSize:
 coverCaption:
 coverMeta:
